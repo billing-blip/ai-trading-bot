@@ -1,0 +1,51 @@
+{
+  "updated": "2026-11-03",
+  "equity": 100000,
+  "pnl": {
+    "equity": 100000,
+    "day": 0,
+    "week": 0,
+    "month": 0
+  },
+  "stats": {
+    "trades": 0,
+    "net_pnl": 0,
+    "win_rate": null,
+    "profit_factor": null,
+    "avg_win": null,
+    "avg_loss": null,
+    "max_drawdown_pct": 0,
+    "charges": 0
+  },
+  "by_strategy": {},
+  "equity_history": [
+    {
+      "date": "2026-11-03",
+      "equity": 100000,
+      "cash": 100000,
+      "open_positions": 0
+    }
+  ],
+  "open_positions": [],
+  "recent_trades": [],
+  "recent_events": [
+    {
+      "time": "2026-11-03T15:30:00+05:30",
+      "kind": "PLAN",
+      "detail": "MARKET BELOW 200-DAY AVG \u2192 holding cash. Rebalance decided on 2026-11-03: picks none (Nifty 23811 vs 200-day avg 24017). Orders fill at 2026-11-04 open."
+    }
+  ],
+  "blocks": {},
+  "go_live": {
+    "checks": {
+      "at least 125 trading days": false,
+      "at least 10 trades": false,
+      "profit after charges": false,
+      "profit factor >= 1.2": false,
+      "max drawdown < 15.0%": true,
+      "zero rule breaks": true
+    },
+    "ready": false,
+    "days": 1
+  }
+}

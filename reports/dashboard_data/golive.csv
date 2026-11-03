@@ -3,5 +3,5 @@ at least 125 trading days,no
 at least 10 trades,no
 profit after charges,no
 profit factor >= 1.2,no
-max drawdown < 15.0%,no
-zero rule breaks,no
+max drawdown < 15.0%,yes
+zero rule breaks,yes

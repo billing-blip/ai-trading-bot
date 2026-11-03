@@ -17,10 +17,10 @@
   },
   {
     "check": "max drawdown < 15.0%",
-    "ok": "no"
+    "ok": "yes"
   },
   {
     "check": "zero rule breaks",
-    "ok": "no"
+    "ok": "yes"
   }
 ]

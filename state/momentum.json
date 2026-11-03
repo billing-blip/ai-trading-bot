@@ -1,0 +1,103 @@
+{
+  "needs_initial": false,
+  "paused": false,
+  "peak_equity": 100000,
+  "ranking": [
+    {
+      "symbol": "BSE",
+      "return_12m_pct": 46.4,
+      "above_200d": true,
+      "close": 3665.7
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "return_12m_pct": 32.0,
+      "above_200d": true,
+      "close": 1866.9
+    },
+    {
+      "symbol": "TECHM",
+      "return_12m_pct": 26.5,
+      "above_200d": true,
+      "close": 1789.1
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "return_12m_pct": 25.4,
+      "above_200d": false,
+      "close": 884.8
+    },
+    {
+      "symbol": "TITAN",
+      "return_12m_pct": 22.4,
+      "above_200d": true,
+      "close": 4562.0
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "return_12m_pct": 17.5,
+      "above_200d": true,
+      "close": 10540.0
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "return_12m_pct": 15.4,
+      "above_200d": true,
+      "close": 1320.0
+    },
+    {
+      "symbol": "COALINDIA",
+      "return_12m_pct": 9.8,
+      "above_200d": false,
+      "close": 408.0
+    },
+    {
+      "symbol": "HINDALCO",
+      "return_12m_pct": 9.5,
+      "above_200d": false,
+      "close": 915.75
+    },
+    {
+      "symbol": "EICHERMOT",
+      "return_12m_pct": 8.9,
+      "above_200d": true,
+      "close": 7440.0
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "return_12m_pct": 8.3,
+      "above_200d": true,
+      "close": 464.65
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "return_12m_pct": 7.8,
+      "above_200d": true,
+      "close": 8440.0
+    },
+    {
+      "symbol": "DRREDDY",
+      "return_12m_pct": 7.2,
+      "above_200d": true,
+      "close": 1368.3
+    },
+    {
+      "symbol": "SBIN",
+      "return_12m_pct": 7.0,
+      "above_200d": false,
+      "close": 970.25
+    },
+    {
+      "symbol": "GRASIM",
+      "return_12m_pct": 6.0,
+      "above_200d": true,
+      "close": 3090.0
+    }
+  ],
+  "ranking_date": "2026-11-03",
+  "risk_on": false,
+  "picks": [],
+  "excluded": {},
+  "next_rebalance": "2026-11-30",
+  "last_day": "2026-11-03"
+}

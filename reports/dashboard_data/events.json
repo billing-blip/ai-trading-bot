@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "event_no": 1,
+    "time": "2026-11-03 15:30",
+    "kind": "PLAN",
+    "detail": "MARKET BELOW 200-DAY AVG \u2192 holding cash. Rebalance decided on 2026-11-03: picks none (Nifty 23811 vs 200-day avg 24017). Orders fill at 2026-11-04 open."
+  }
+]

@@ -10,12 +10,12 @@
     "profit_factor": null,
     "max_dd": 0,
     "open_positions": 0,
-    "status": "Not started yet",
-    "days": 0,
-    "regime": "",
-    "updated": "2026-11-03 17:04",
-    "next_rebalance": "",
-    "ranking_date": "",
-    "market": ""
+    "status": "Running",
+    "days": 1,
+    "regime": "risk-off (cash)",
+    "updated": "2026-11-03 17:05",
+    "next_rebalance": "2026-11-30",
+    "ranking_date": "2026-11-03",
+    "market": "Nifty below 200-day avg: holding cash"
   }
 ]

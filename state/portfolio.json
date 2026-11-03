@@ -1,0 +1,25 @@
+{
+  "starting_capital": 100000,
+  "cash": 100000,
+  "positions": [],
+  "pending": [],
+  "closed": [],
+  "events": [
+    {
+      "time": "2026-11-03T15:30:00+05:30",
+      "kind": "PLAN",
+      "detail": "MARKET BELOW 200-DAY AVG \u2192 holding cash. Rebalance decided on 2026-11-03: picks none (Nifty 23811 vs 200-day avg 24017). Orders fill at 2026-11-04 open."
+    }
+  ],
+  "blocks": {},
+  "equity_history": [
+    {
+      "date": "2026-11-03",
+      "equity": 100000,
+      "cash": 100000,
+      "open_positions": 0
+    }
+  ],
+  "created": "2026-11-03T17:05:19.457151+05:30",
+  "regime_today": "risk-off (cash)"
+}
