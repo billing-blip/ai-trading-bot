@@ -85,6 +85,18 @@ def daily(pf: dict, rules: dict, day: dt.date) -> str:
                      f"{p['stop']} | {p['target']} | {p.get('days_held', 0)} |")
     else:
         L.append("None.")
+    ai_err = sum(1 for e in ev if e["kind"] == "AI-ERROR")
+    ai_skip = sum(1 for e in ev if e["kind"] == "AI-SKIP")
+    no_plan = [e["detail"] for e in ev if e["kind"] == "NO-TRADE" and "plan" in e["detail"]]
+    health = []
+    if no_plan:
+        health.append(f"⚠️ Morning plan problem: {no_plan[0]}. Open trades were still managed by their stops/targets.")
+    if ai_err:
+        health.append(f"⚠️ {ai_err} hourly AI check-in(s) failed today (API credits used up or provider down?). "
+                      "The bot kept running on its coded rules only.")
+    if ai_skip:
+        health.append("ℹ️ Hourly AI check-ins are switched off (no API key configured).")
+    L += ["", "## Health"] + (health or ["✅ Plan arrived on time, AI check-ins working."])
     L += ["", "## What happened (log)"]
     L += [f"- `{e['time'][11:16]}` **{e['kind']}** {e['detail']}" for e in ev] or ["- quiet day"]
     L += ["", "## Overall so far",

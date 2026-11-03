@@ -13,14 +13,13 @@ On the **Secrets** tab, click **New repository secret** twice:
 
 | Name | Value |
 |---|---|
-| `LLM_API_KEY` | your API key (a fresh one — delete the one shared in chat) |
-| `LLM_BASE_URL` | your API website's address (Claude will tell you the exact value) |
+| `LLM_API_KEY` | your apimodels.app key (a fresh one — delete the one shared in chat) |
+| `LLM_BASE_URL` | `https://api.apimodels.app/v1` |
 
-On the **Variables** tab, click **New repository variable**:
+Optional — on the **Variables** tab, **New repository variable** `LLM_MODEL` = `claude-haiku-5-5`
+(this is already the default, so you can skip it).
 
-| Name | Value |
-|---|---|
-| `LLM_MODEL` | the exact model name on your API website (Claude will tell you) |
+Tip: on apimodels.app, set a spending limit if the site offers one.
 
 ## Step 3 — Run the backtest
 Repository → **Actions** → **backtest** (left side) → **Run workflow** → **Run workflow**.
