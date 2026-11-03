@@ -1,0 +1,98 @@
+# ============================================================
+#  AI TRADING BOT — RULEBOOK (v1, paper trading)
+#  These limits are enforced by code. The AI can NOT change them.
+#  Money values are in rupees (INR).
+# ============================================================
+
+mode: paper            # paper | live  (live is NOT built yet — paper only)
+
+capital:
+  starting: 100000
+  swing_bucket: 70000      # max capital used by swing trades at once
+  intraday_bucket: 30000   # max capital used by intraday trades at once
+
+risk:
+  max_loss_per_trade: 500          # 0.5% of capital, INCLUDING estimated charges
+  max_position_value: 25000        # no single trade bigger than this
+  max_open_swing_trades: 4
+  max_intraday_trades_per_day: 2
+  max_total_open_risk: 2000        # sum of (entry - stop) x qty across open + pending trades
+  daily_loss_limit: 1000           # hit it -> no new trades rest of day, pending orders cancelled
+  weekly_loss_limit: 2000          # hit it -> no new trades until next Monday
+  monthly_loss_limit: 5000         # hit it -> FULL STOP until manually reviewed
+  min_reward_to_risk: 2.0          # target must be >= 2x the risk
+  long_only: true                  # v1: buy-only. Intraday shorts planned for v2.
+  allow_leverage: false
+  allow_fno: false
+
+trade_rules:
+  swing_max_hold_days: 10          # exit at close after 10 trading days
+  move_stop_to_breakeven_at_r: 1.0 # once price moves +1R in our favour, stop -> entry
+  intraday_square_off: "15:15"     # all intraday positions closed at this time
+  intraday_no_entry_before: "09:30"
+  intraday_no_entry_after: "14:30"
+  swing_entry_window: ["09:30", "15:00"]
+
+gap_check:
+  max_stock_gap_pct: 2.0           # cancel a planned trade if stock opens >2% beyond its entry
+  max_nifty_gap_pct: 1.5           # whole day = "no trade" if Nifty opens >1.5% up/down
+
+schedule:                          # IST. Triggered by cron-job.org (see SETUP.md)
+  snapshot: "08:00"                # bot prepares market data + valid trade candidates
+  plan_deadline: "09:00"           # AI plan must be committed before this, else no trades today
+  activate: "09:10"                # plan checked + turned into pending orders
+                                   # (the gap check itself runs on the first price candles of the day)
+  ticks: ["09:50", "10:50", "11:50", "12:50", "13:50", "14:35", "15:20"]
+  eod: "16:00"
+
+universe: nifty50                  # only Nifty 50 stocks
+
+strategies:
+  trend_pullback:                  # A — swing
+    enabled: true
+    trend_sma: 50
+    pullback_sma: 20
+    pullback_touch_pct: 1.0        # low came within 1% of the 20-day average in last 3 days
+    stop_lookback_days: 3          # stop just below lowest low of last 3 days
+  breakout:                        # B — swing
+    enabled: true
+    lookback_days: 20
+    volume_multiple: 1.5
+    atr_period: 14
+    atr_stop_multiple: 1.5
+  opening_range_breakout:          # C — intraday
+    enabled: true
+    range_minutes: 30              # first 30 minutes (09:15-09:45)
+    max_range_pct: 1.5             # skip if the opening range is wider than 1.5% of price
+    only_when_regime: ["trending_up"]
+
+ai:
+  # Morning plan: written by a Claude scheduled task (Claude Pro) — free.
+  # Hourly check-ins: cheap model via API (key stored as GitHub secret, never in this file).
+  checkin_model: "claude-haiku-5-5"
+  checkin_max_tokens: 800
+  # Check-ins may ONLY reduce risk: exit early, tighten stop, cancel a pending entry, stop for the day.
+  allowed_checkin_actions: ["exit", "tighten_stop", "cancel_entry", "halt_day"]
+  max_stocks_in_plan: 5
+
+charges:                           # estimated, Zerodha-style. Used so paper results are realistic.
+  intraday_brokerage_pct: 0.03     # or Rs 20 per order, whichever is lower
+  intraday_brokerage_cap: 20
+  delivery_brokerage: 0
+  stt_intraday_sell_pct: 0.025
+  stt_delivery_pct: 0.1            # both buy and sell
+  exchange_txn_pct: 0.00297
+  sebi_per_crore: 10
+  stamp_intraday_buy_pct: 0.003
+  stamp_delivery_buy_pct: 0.015
+  gst_pct: 18
+  dp_charge_per_sell: 15.93        # delivery sells only
+  slippage_pct: 0.05               # assumed price slippage on every fill (paper realism)
+
+go_live_criteria:                  # checked by the weekly report
+  min_paper_days: 40               # ~2 months of trading days
+  min_trades: 40
+  min_profit_factor: 1.3
+  max_drawdown_pct: 6.0
+  require_positive_net_after_charges: true
+  require_zero_rule_breaks: true

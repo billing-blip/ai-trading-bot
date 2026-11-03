@@ -1,0 +1,31 @@
+# Market calendar. Update once a year (NSE publishes the list every December).
+
+# NSE equity trading holidays (weekdays only)
+holidays:
+  - 2026-01-15   # Maharashtra municipal elections
+  - 2026-01-26   # Republic Day
+  - 2026-03-03   # Holi
+  - 2026-03-26   # Shri Ram Navami
+  - 2026-03-31   # Shri Mahavir Jayanti
+  - 2026-04-03   # Good Friday
+  - 2026-04-14   # Dr. Ambedkar Jayanti
+  - 2026-05-01   # Maharashtra Day
+  - 2026-05-28   # Bakri Id
+  - 2026-06-26   # Moharram
+  - 2026-09-14   # Ganesh Chaturthi
+  - 2026-10-02   # Gandhi Jayanti
+  - 2026-10-20   # Dussehra
+  - 2026-11-10   # Diwali Balipratipada
+  - 2026-11-24   # Guru Nanak Jayanti
+  - 2026-12-25   # Christmas
+
+# Days with big scheduled events: NO new trades (rulebook section 3).
+# Add Budget day, RBI policy announcement days and election result days here.
+# The morning AI is also told to declare "no_trade" on such days if it finds them in the news.
+no_trade_days:
+  - 2027-02-01   # Union Budget
+
+# Stocks blocked for a date range (e.g. company results). The morning AI also removes
+# stocks with results within 2 days using news, this list is a manual backup.
+# format:  SYMBOL: [start_date, end_date]
+blackout: {}
