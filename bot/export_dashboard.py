@@ -79,7 +79,7 @@ def export() -> dict:
     excl = mst.get("excluded") or {}
     files["picks"] = [{"rank": i + 1, "symbol": r["symbol"], "return_12m_pct": r["return_12m_pct"],
                        "above_200d": "yes" if r["above_200d"] else "no",
-                       "decision": "BUY / HOLD" if r["symbol"] in picks else (f"AI excluded: {excl[r['symbol']]}" if r["symbol"] in excl else "—")}
+                       "decision": _decision(r, picks, excl, mst.get("risk_on", True))}
                       for i, r in enumerate(mst.get("ranking") or [])]
     files["summary"][0]["next_rebalance"] = mst.get("next_rebalance", "")
     files["summary"][0]["ranking_date"] = mst.get("ranking_date", "")
@@ -139,6 +139,18 @@ def _write_csv(path, rows, cols):
         w.writeheader()
         for r in rows:
             w.writerow({c: ("" if r.get(c) is None else r.get(c)) for c in cols})
+
+
+def _decision(r, picks, excl, risk_on):
+    if r["symbol"] in picks:
+        return "BUY / HOLD"
+    if r["symbol"] in excl:
+        return f"AI excluded: {excl[r['symbol']]}"
+    if not risk_on:
+        return "Not bought: market below 200-day avg (cash)"
+    if not r["above_200d"]:
+        return "Skipped: below its own 200-day avg"
+    return "Not in top 5"
 
 
 def _v1(s):

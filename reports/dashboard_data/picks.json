@@ -4,104 +4,104 @@
     "symbol": "BSE",
     "return_12m_pct": 46.4,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 2,
     "symbol": "ADANIPORTS",
     "return_12m_pct": 32.0,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 3,
     "symbol": "TECHM",
     "return_12m_pct": 26.5,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 4,
     "symbol": "SHRIRAMFIN",
     "return_12m_pct": 25.4,
     "above_200d": "no",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 5,
     "symbol": "TITAN",
     "return_12m_pct": 22.4,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 6,
     "symbol": "BAJAJ-AUTO",
     "return_12m_pct": 17.5,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 7,
     "symbol": "JSWSTEEL",
     "return_12m_pct": 15.4,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 8,
     "symbol": "COALINDIA",
     "return_12m_pct": 9.8,
     "above_200d": "no",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 9,
     "symbol": "HINDALCO",
     "return_12m_pct": 9.5,
     "above_200d": "no",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 10,
     "symbol": "EICHERMOT",
     "return_12m_pct": 8.9,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 11,
     "symbol": "KOTAKBANK",
     "return_12m_pct": 8.3,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 12,
     "symbol": "APOLLOHOSP",
     "return_12m_pct": 7.8,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 13,
     "symbol": "DRREDDY",
     "return_12m_pct": 7.2,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 14,
     "symbol": "SBIN",
     "return_12m_pct": 7.0,
     "above_200d": "no",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   },
   {
     "rank": 15,
     "symbol": "GRASIM",
     "return_12m_pct": 6.0,
     "above_200d": "yes",
-    "decision": "\u2014"
+    "decision": "Not bought: market below 200-day avg (cash)"
   }
 ]
