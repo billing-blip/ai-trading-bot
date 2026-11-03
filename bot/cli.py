@@ -33,8 +33,36 @@ def _ctx():
     return rules, cal, pf, control
 
 
+def _swing_off(rules):
+    if rules.get("strategy_mode", "swing") != "swing":
+        print(f"strategy_mode is {rules['strategy_mode']} — swing job skipped")
+        return True
+    return False
+
+
+def cmd_daily(args):
+    """Momentum mode: one run per day after the close (catches up missed days by itself)."""
+    from . import momentum
+    rules, cal, pf, control = _ctx()
+    now = args.now or now_ist()
+    st = read_json(momentum.STATE_PATH, {"needs_initial": True})
+    st["paused"] = bool(control.get("paused"))
+    write_json(momentum.STATE_PATH, st)
+    msgs = momentum.run(pf, rules, cal, get_provider(), now)
+    audit_m = [p for p in pf["positions"] if not p.get("stop")]
+    for p in audit_m:
+        P.log(pf, "RULE-BREAK", f"{p['symbol']} has no stop-loss", now)
+    pf["regime_today"] = "risk-on (holding stocks)" if momentum.read_json(momentum.STATE_PATH, {}).get("risk_on", True) else "risk-off (cash)"
+    day = momentum.last_completed_day(now, cal)
+    report.write_all(pf, rules, day)
+    P.save(pf)
+    print("\n".join(msgs))
+
+
 def cmd_snapshot(args):
     rules, cal, pf, _ = _ctx()
+    if _swing_off(rules):
+        return
     day = args.day or now_ist().date()
     if not is_trading_day(day, cal):
         print(f"{day} is not a trading day — no snapshot.")
@@ -66,6 +94,8 @@ def cmd_validate_plan(args):
 
 def cmd_activate(args):
     rules, cal, pf, control = _ctx()
+    if _swing_off(rules):
+        return
     now = now_ist()
     msgs = planner.activate(pf, rules, cal, control, now.date(), now)
     P.save(pf)
@@ -120,6 +150,8 @@ def _setup_orb(pf, rules, control, day, now, candles):
 
 def cmd_tick(args):
     rules, cal, pf, control = _ctx()
+    if _swing_off(rules):
+        return
     now = args.now or now_ist()
     day = now.date()
     if not is_trading_day(day, cal) or now < at(day, "09:15"):
@@ -167,6 +199,8 @@ def audit(pf, rules, day, now):
 
 def cmd_eod(args):
     rules, cal, pf, control = _ctx()
+    if _swing_off(rules):
+        return
     now = args.now or now_ist()
     day = now.date()
     if not is_trading_day(day, cal):
@@ -221,7 +255,7 @@ def _parse_now(s: str) -> dt.datetime:
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="bot")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ["snapshot", "validate-plan", "activate", "tick", "eod", "status", "pause", "resume"]:
+    for name in ["snapshot", "validate-plan", "activate", "tick", "eod", "status", "pause", "resume", "daily"]:
         p = sub.add_parser(name)
         p.add_argument("--day", type=dt.date.fromisoformat, default=None)
         p.add_argument("--now", type=_parse_now, default=None)
@@ -230,7 +264,7 @@ def main(argv=None):
     a = ap.parse_args(argv)
     {
         "snapshot": cmd_snapshot, "validate-plan": cmd_validate_plan, "activate": cmd_activate,
-        "tick": cmd_tick, "eod": cmd_eod, "status": cmd_status,
+        "tick": cmd_tick, "eod": cmd_eod, "daily": cmd_daily, "status": cmd_status,
         "pause": lambda x: cmd_pause(x, True), "resume": lambda x: cmd_pause(x, False),
     }[a.cmd](a)
 

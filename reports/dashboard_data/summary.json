@@ -13,6 +13,9 @@
     "status": "Not started yet",
     "days": 0,
     "regime": "",
-    "updated": "2026-11-03 16:59"
+    "updated": "2026-11-03 17:04",
+    "next_rebalance": "",
+    "ranking_date": "",
+    "market": ""
   }
 ]

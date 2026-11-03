@@ -5,6 +5,17 @@
 # ============================================================
 
 mode: paper            # paper | live  (live is NOT built yet — paper only)
+strategy_mode: momentum   # momentum (passed testing, ACTIVE) | swing (failed testing, kept for reference)
+
+# ---------- ACTIVE STRATEGY: momentum rotation (backtest variant I, approved 3 Nov 2026) ----------
+momentum:
+  lookback_days: 252      # rank by 12-month return
+  top_n: 5                # hold the 5 strongest Nifty 50 stocks (~19,400 each)
+  stock_sma: 200          # a stock must be above its 200-day average to be picked
+  market_sma: 200         # Nifty below its 200-day average -> hold CASH
+  stop_pct: 12            # per-stock stop-loss, 12% below the buy price
+  max_drawdown_pct: 15    # kill switch: account 15% below its peak -> sell all, full stop until reviewed
+  rebalance: month_end    # decide on the last trading day of the month, trade next morning at the open
 
 capital:
   starting: 100000
@@ -89,10 +100,10 @@ charges:                           # estimated, Zerodha-style. Used so paper res
   dp_charge_per_sell: 15.93        # delivery sells only
   slippage_pct: 0.05               # assumed price slippage on every fill (paper realism)
 
-go_live_criteria:                  # checked by the weekly report
-  min_paper_days: 40               # ~2 months of trading days
-  min_trades: 40
-  min_profit_factor: 1.3
-  max_drawdown_pct: 6.0
+go_live_criteria:                  # momentum version: monthly trading needs a longer test
+  min_paper_days: 125              # ~6 months of trading days
+  min_trades: 10
+  min_profit_factor: 1.2
+  max_drawdown_pct: 15.0
   require_positive_net_after_charges: true
   require_zero_rule_breaks: true

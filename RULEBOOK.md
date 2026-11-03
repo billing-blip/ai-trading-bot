@@ -1,4 +1,35 @@
-# AI Trading Bot — Rulebook (v1, paper trading)
+# AI Trading Bot — Rulebook
+
+## ACTIVE (from 3 Nov 2026): Momentum rotation v1, paper trading
+
+Chosen because it was the only strategy family that passed testing on unseen data
+(2025–2026: +11.4% vs Nifty +0.3%, biggest drop 10.6%). All swing / intraday setups failed
+(see `backtest/results/`), so they are switched off.
+
+| Rule | Setting |
+|---|---|
+| Capital (paper) | ₹1,00,000 |
+| What it holds | The 5 Nifty 50 stocks with the best 12-month return, each above its 200-day average |
+| Size | ~₹19,400 per stock (97% of the account split equally) |
+| When it trades | Decides on the last trading day of each month after the close; trades next morning at the open |
+| Market filter | Nifty below its 200-day average → sell everything, hold cash |
+| Stop-loss | 12% below each stock's buy price, checked every day |
+| Kill switch | Account 15% below its peak → sell all, full stop until reviewed |
+| AI's role | Before each monthly buy, may only REMOVE a pick for serious news (fraud, regulator action, results within 2 days) |
+| Leverage, options, F&O, short selling | Never |
+| Daily run | Once per trading day after the close (16:05 IST); missed days are caught up automatically |
+
+**Going live:** at least 6 months (125 trading days) of paper trading, at least 10 trades,
+profitable after charges, profit factor ≥ 1.2, biggest drop under 15%, zero rule breaks, and
+ideally ahead of simply holding Nifty 50. First live months at half size.
+
+**Known weakness:** the backtest used today's Nifty 50 list (survivorship bias), so real results
+are likely lower than tested. That's why the 6-month paper test matters.
+
+---
+
+## RETIRED: Swing + intraday rulebook v1 (failed backtesting)
+
 
 Approved 3 Nov 2026. The numbers live in `config/rules.yaml`; the code enforces them and the
 AI cannot change them.

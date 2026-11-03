@@ -1,21 +1,17 @@
 name: trading-bot
 
-# Started on time by cron-job.org (see SETUP.md). The `schedule` entries below are only a
-# backup — GitHub's own timer is often late, and every job is safe to run twice.
+# Momentum mode: ONE job per trading day after the close ("daily"). GitHub's timer is often
+# late, which is fine: the job catches up any missed days by itself and is safe to run twice.
 on:
   workflow_dispatch:
     inputs:
       job:
-        description: "snapshot | activate | tick | eod | status"
+        description: "daily | status  (swing-mode jobs: snapshot | activate | tick | eod)"
         required: true
-        default: tick
+        default: daily
   schedule:
-    - cron: "30 2 * * 1-5"    # 08:00 IST snapshot
-    - cron: "40 3 * * 1-5"    # 09:10 IST activate
-    - cron: "20 4-8 * * 1-5"  # 09:50 .. 13:50 IST tick
-    - cron: "5 9 * * 1-5"     # 14:35 IST tick
-    - cron: "50 9 * * 1-5"    # 15:20 IST tick
-    - cron: "30 10 * * 1-5"   # 16:00 IST eod
+    - cron: "35 10 * * 1-5"   # 16:05 IST daily run
+    - cron: "5 14 * * 1-5"    # 19:35 IST backup (does nothing if already done)
 
 concurrency:
   group: trading-bot
@@ -45,12 +41,7 @@ jobs:
         run: |
           JOB="${{ github.event.inputs.job }}"
           if [ -z "$JOB" ]; then
-            case "${{ github.event.schedule }}" in
-              "30 2 * * 1-5") JOB=snapshot ;;
-              "40 3 * * 1-5") JOB=activate ;;
-              "30 10 * * 1-5") JOB=eod ;;
-              *) JOB=tick ;;
-            esac
+            JOB=daily
           fi
           echo "job=$JOB" >> "$GITHUB_OUTPUT"
           echo "Running: $JOB"

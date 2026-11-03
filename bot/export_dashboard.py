@@ -73,6 +73,19 @@ def export() -> dict:
             "profit after charges", f"profit factor >= {g['min_profit_factor']}",
             f"max drawdown < {g['max_drawdown_pct']}%", "zero rule breaks")]
 
+    # ---- momentum picks ----
+    mst = read_json(ROOT / "state" / "momentum.json") or {}
+    picks = set(mst.get("picks") or [])
+    excl = mst.get("excluded") or {}
+    files["picks"] = [{"rank": i + 1, "symbol": r["symbol"], "return_12m_pct": r["return_12m_pct"],
+                       "above_200d": "yes" if r["above_200d"] else "no",
+                       "decision": "BUY / HOLD" if r["symbol"] in picks else (f"AI excluded: {excl[r['symbol']]}" if r["symbol"] in excl else "—")}
+                      for i, r in enumerate(mst.get("ranking") or [])]
+    files["summary"][0]["next_rebalance"] = mst.get("next_rebalance", "")
+    files["summary"][0]["ranking_date"] = mst.get("ranking_date", "")
+    files["summary"][0]["market"] = ("" if "risk_on" not in mst else
+                                     ("Nifty above 200-day avg: holding stocks" if mst["risk_on"] else "Nifty below 200-day avg: holding cash"))
+
     # ---- strategy testing ----
     variants, curves = [], []
     orig = read_json(RES / "results.json") or {}
@@ -106,7 +119,8 @@ def export() -> dict:
 
 COLUMNS = {
     "summary": ["equity", "day_pnl", "week_pnl", "month_pnl", "net_pnl", "trades", "win_rate", "profit_factor",
-                "max_dd", "open_positions", "status", "days", "regime", "updated"],
+                "max_dd", "open_positions", "status", "days", "regime", "updated", "next_rebalance", "ranking_date", "market"],
+    "picks": ["rank", "symbol", "return_12m_pct", "above_200d", "decision"],
     "equity": ["date", "equity"],
     "trades": ["trade_no", "exit_date", "symbol", "strategy", "type", "qty", "entry", "exit", "net_pnl", "reason"],
     "positions": ["symbol", "type", "strategy", "qty", "entry", "last", "stop", "target", "unrealized", "days"],

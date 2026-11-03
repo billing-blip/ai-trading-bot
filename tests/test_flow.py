@@ -46,6 +46,8 @@ class FakeProvider(DataProvider):
 
 def test_full_day(monkeypatch):
     fake = FakeProvider()
+    real_rules = cli.load_rules
+    monkeypatch.setattr(cli, "load_rules", lambda: {**real_rules(), "strategy_mode": "swing"})
     monkeypatch.setattr(cli, "get_provider", lambda: fake)
     monkeypatch.setattr(planner, "fetch_nifty50", lambda: ["BRK", "AAA", "BBB"])
     monkeypatch.setattr(planner, "headlines", lambda *a, **k: [])
