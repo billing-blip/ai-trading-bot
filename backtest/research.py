@@ -125,7 +125,8 @@ def period_metrics(res: dict, start: dt.date | None, end: dt.date | None, cap: f
         d = dt.date.fromisoformat(d[:10])
         return (start is None or d >= start) and (end is None or d < end)
 
-    trades = [t for t in res["trades"] if inside(t["exit_time"])]
+    # trades are assigned to the period they were OPENED in (a 2024 winner sold in 2025 is 2024's profit)
+    trades = [t for t in res["trades"] if inside(t["entry_time"])]
     s = stats(trades, cap)
     eq = [e for e in res["equity"] if inside(e["date"])]
     ret, dd = None, 0.0
@@ -137,6 +138,8 @@ def period_metrics(res: dict, start: dt.date | None, end: dt.date | None, cap: f
             dd = max(dd, (peak - e["equity"]) / peak * 100)
     s["return_pct"] = ret
     s["equity_dd_pct"] = round(dd, 1)
+    if len(eq) > 1:                       # profit = change in account value during the period
+        s["net_pnl"] = round(eq[-1]["equity"] - eq[0]["equity"], 2)
     return s
 
 
@@ -184,6 +187,8 @@ def variants(rules: dict):
          lambda d, n: momentum_backtest(d, n, rules, lookback=252, top_n=5, market_filter=True)),
         ("G. Momentum rotation: top 5 by 6-month return, monthly, no market filter",
          lambda d, n: momentum_backtest(d, n, rules, lookback=126, top_n=5, market_filter=False)),
+        ("I. Momentum F + 12% stop-loss per stock",
+         lambda d, n: momentum_backtest(d, n, rules, lookback=252, top_n=5, market_filter=True, stop_pct=0.12)),
         ("H. Momentum E + 12% stop-loss per stock",
          lambda d, n: momentum_backtest(d, n, rules, lookback=126, top_n=5, market_filter=True, stop_pct=0.12)),
     ]

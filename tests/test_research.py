@@ -12,7 +12,7 @@ def test_research_runs_all_variants():
     idx = list(daily["S0"].index)
     nifty = pd.Series(np.linspace(17000, 24000, len(idx)), index=idx)
     out = run_all(daily, nifty, rules)
-    assert len(out) == 8
+    assert len(out) == 9
     for r in out.values():
         assert r["verdict"] in {"PASS", "WEAK", "FAIL", "NOT ENOUGH TRADES"}
     assert "Benchmark" in write_report(out, nifty)

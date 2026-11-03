@@ -71,8 +71,8 @@ class YahooProvider(DataProvider):
         last_err = None
         for attempt in range(4):           # Yahoo sometimes rate-limits; wait and retry
             try:
-                raw = yf.download(tickers, group_by="ticker", auto_adjust=False, progress=False,
-                                  threads=True, **kw)
+                kw.setdefault("auto_adjust", False)
+                raw = yf.download(tickers, group_by="ticker", progress=False, threads=True, **kw)
                 if raw is not None and not raw.empty:
                     return raw
             except Exception as e:  # noqa: BLE001
@@ -83,7 +83,8 @@ class YahooProvider(DataProvider):
 
     def daily(self, symbols, period="1y"):
         tick = [yahoo_ticker(s) for s in symbols]
-        raw = self._download(tick, period=period, interval="1d")
+        # adjusted prices: stock splits / bonus issues must not look like crashes
+        raw = self._download(tick, period=period, interval="1d", auto_adjust=True)
         by_t = _split(raw, tick)
         out = {}
         for s, t in zip(symbols, tick):
