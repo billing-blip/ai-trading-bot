@@ -49,16 +49,16 @@ def export() -> dict:
             "days": len(pf["equity_history"]), "regime": pf.get("regime_today", ""),
             "updated": now_ist().strftime("%Y-%m-%d %H:%M")}]
         files["equity"] = [{"date": r["date"], "equity": r["equity"]} for r in pf["equity_history"]]
-        files["trades"] = [{"exit_date": t["exit_time"][:10], "symbol": t["symbol"], "strategy": t["strategy"],
+        files["trades"] = [{"trade_no": len(pf["closed"]) - k, "exit_date": t["exit_time"][:10], "symbol": t["symbol"], "strategy": t["strategy"],
                             "type": t["type"], "qty": t["qty"], "entry": t["entry_price"], "exit": t["exit_price"],
                             "net_pnl": t["net_pnl"], "reason": t["exit_reason"]}
-                           for t in reversed(pf["closed"][-200:])]
+                           for k, t in enumerate(reversed(pf["closed"][-200:]))]
         files["positions"] = [{"symbol": x["symbol"], "type": x["type"], "strategy": x["strategy"], "qty": x["qty"],
                                "entry": x["entry_price"], "last": x["last_price"], "stop": x["stop"],
                                "target": x["target"], "unrealized": round((x["last_price"] - x["entry_price"]) * x["qty"], 2),
                                "days": x.get("days_held", 0)} for x in pf["positions"]]
-        files["events"] = [{"time": e["time"][:16].replace("T", " "), "kind": e["kind"], "detail": e["detail"]}
-                           for e in reversed(pf["events"][-80:])]
+        files["events"] = [{"event_no": len(pf["events"]) - k, "time": e["time"][:16].replace("T", " "), "kind": e["kind"], "detail": e["detail"]}
+                           for k, e in enumerate(reversed(pf["events"][-80:]))]
         files["golive"] = [{"check": k, "ok": "yes" if v else "no"} for k, v in go_live_check(pf, rules)["checks"].items()]
     else:
         cap = rules["capital"]["starting"]
