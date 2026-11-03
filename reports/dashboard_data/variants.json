@@ -34,5 +34,101 @@
     "oos_pf": null,
     "oos_return": null,
     "oos_dd": 0.62
+  },
+  {
+    "variant": "A. Current menu, 3R target, no breakeven, 20-day hold, Nifty>200d",
+    "round": "Round 2",
+    "verdict": "FAIL",
+    "trades": 300,
+    "is_net": 1988.87,
+    "is_pf": 1.04,
+    "oos_net": -12125.9,
+    "oos_pf": 0.58,
+    "oos_return": -12.2,
+    "oos_dd": 12.2
+  },
+  {
+    "variant": "B. Breakout only, trailing stop 3xATR, up to 60 days, Nifty>200d",
+    "round": "Round 2",
+    "verdict": "FAIL",
+    "trades": 136,
+    "is_net": 12915.97,
+    "is_pf": 1.48,
+    "oos_net": -7269.89,
+    "oos_pf": 0.45,
+    "oos_return": -6.7,
+    "oos_dd": 6.8
+  },
+  {
+    "variant": "C. Trend following: 50-day high, trailing 3xATR, up to 120 days, Nifty>200d",
+    "round": "Round 2",
+    "verdict": "FAIL",
+    "trades": 122,
+    "is_net": -517.57,
+    "is_pf": 0.98,
+    "oos_net": -8049.89,
+    "oos_pf": 0.31,
+    "oos_return": -8.0,
+    "oos_dd": 9.2
+  },
+  {
+    "variant": "D. Pullback only, 3R target, no breakeven, Nifty>200d",
+    "round": "Round 2",
+    "verdict": "FAIL",
+    "trades": 334,
+    "is_net": -10435.72,
+    "is_pf": 0.84,
+    "oos_net": -21050.15,
+    "oos_pf": 0.39,
+    "oos_return": -23.5,
+    "oos_dd": 23.5
+  },
+  {
+    "variant": "E. Momentum rotation: top 5 by 6-month return, monthly, cash when Nifty<200d",
+    "round": "Round 2",
+    "verdict": "WEAK",
+    "trades": 66,
+    "is_net": 79681.27,
+    "is_pf": 3.45,
+    "oos_net": 73232.14,
+    "oos_pf": 3.35,
+    "oos_return": 0.6,
+    "oos_dd": 15.5
+  },
+  {
+    "variant": "F. Momentum rotation: top 5 by 12-month return, monthly, cash when Nifty<200d",
+    "round": "Round 2",
+    "verdict": "PASS",
+    "trades": 58,
+    "is_net": 19346.06,
+    "is_pf": 2.17,
+    "oos_net": 210294.3,
+    "oos_pf": 15.71,
+    "oos_return": 10.7,
+    "oos_dd": 11.0
+  },
+  {
+    "variant": "G. Momentum rotation: top 5 by 6-month return, monthly, no market filter",
+    "round": "Round 2",
+    "verdict": "WEAK",
+    "trades": 90,
+    "is_net": 90888.38,
+    "is_pf": 3.96,
+    "oos_net": 34063.87,
+    "oos_pf": 1.38,
+    "oos_return": -16.6,
+    "oos_dd": 29.9
+  },
+  {
+    "variant": "H. Momentum E + 12% stop-loss per stock",
+    "round": "Round 2",
+    "verdict": "WEAK",
+    "trades": 66,
+    "is_net": 76958.15,
+    "is_pf": 3.24,
+    "oos_net": 72797.07,
+    "oos_pf": 3.33,
+    "oos_return": 0.5,
+    "oos_dd": 15.5
   }
 ]
