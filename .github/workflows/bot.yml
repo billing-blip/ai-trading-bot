@@ -62,6 +62,10 @@ jobs:
           LLM_MODEL: ${{ vars.LLM_MODEL }}
         run: python -m bot.cli ${{ steps.job.outputs.job }}
 
+      - name: Update dashboard data
+        if: always()
+        run: python -m bot.export_dashboard || true
+
       - name: Save results to the repository
         if: always()
         run: |

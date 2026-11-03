@@ -1,0 +1,2362 @@
+[
+  {
+    "date": "2022-01-31",
+    "series": "Swing \u2014 no filter",
+    "equity": 100000
+  },
+  {
+    "date": "2022-02-07",
+    "series": "Swing \u2014 no filter",
+    "equity": 99346.29
+  },
+  {
+    "date": "2022-02-14",
+    "series": "Swing \u2014 no filter",
+    "equity": 97463.69
+  },
+  {
+    "date": "2022-02-21",
+    "series": "Swing \u2014 no filter",
+    "equity": 96500.4
+  },
+  {
+    "date": "2022-02-28",
+    "series": "Swing \u2014 no filter",
+    "equity": 95581.94
+  },
+  {
+    "date": "2022-03-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 94884.75
+  },
+  {
+    "date": "2022-03-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 95479.44
+  },
+  {
+    "date": "2022-03-23",
+    "series": "Swing \u2014 no filter",
+    "equity": 95357.09
+  },
+  {
+    "date": "2022-03-30",
+    "series": "Swing \u2014 no filter",
+    "equity": 96142.69
+  },
+  {
+    "date": "2022-04-06",
+    "series": "Swing \u2014 no filter",
+    "equity": 97704.37
+  },
+  {
+    "date": "2022-04-13",
+    "series": "Swing \u2014 no filter",
+    "equity": 96297.02
+  },
+  {
+    "date": "2022-04-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 96476.55
+  },
+  {
+    "date": "2022-04-29",
+    "series": "Swing \u2014 no filter",
+    "equity": 95225.23
+  },
+  {
+    "date": "2022-05-09",
+    "series": "Swing \u2014 no filter",
+    "equity": 94707.59
+  },
+  {
+    "date": "2022-05-16",
+    "series": "Swing \u2014 no filter",
+    "equity": 93095.52
+  },
+  {
+    "date": "2022-05-23",
+    "series": "Swing \u2014 no filter",
+    "equity": 93236.4
+  },
+  {
+    "date": "2022-05-30",
+    "series": "Swing \u2014 no filter",
+    "equity": 94375.62
+  },
+  {
+    "date": "2022-06-06",
+    "series": "Swing \u2014 no filter",
+    "equity": 94685.04
+  },
+  {
+    "date": "2022-06-13",
+    "series": "Swing \u2014 no filter",
+    "equity": 93369.83
+  },
+  {
+    "date": "2022-06-20",
+    "series": "Swing \u2014 no filter",
+    "equity": 92519.28
+  },
+  {
+    "date": "2022-06-27",
+    "series": "Swing \u2014 no filter",
+    "equity": 92966.62
+  },
+  {
+    "date": "2022-07-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 93071.97
+  },
+  {
+    "date": "2022-07-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 93848.02
+  },
+  {
+    "date": "2022-07-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 94164.84
+  },
+  {
+    "date": "2022-07-25",
+    "series": "Swing \u2014 no filter",
+    "equity": 95586.9
+  },
+  {
+    "date": "2022-08-01",
+    "series": "Swing \u2014 no filter",
+    "equity": 96623.21
+  },
+  {
+    "date": "2022-08-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 96937.54
+  },
+  {
+    "date": "2022-08-17",
+    "series": "Swing \u2014 no filter",
+    "equity": 98400.08
+  },
+  {
+    "date": "2022-08-24",
+    "series": "Swing \u2014 no filter",
+    "equity": 96446.08
+  },
+  {
+    "date": "2022-09-01",
+    "series": "Swing \u2014 no filter",
+    "equity": 94452.44
+  },
+  {
+    "date": "2022-09-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 95873.33
+  },
+  {
+    "date": "2022-09-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 95902.7
+  },
+  {
+    "date": "2022-09-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 93834.62
+  },
+  {
+    "date": "2022-09-29",
+    "series": "Swing \u2014 no filter",
+    "equity": 93104.57
+  },
+  {
+    "date": "2022-10-07",
+    "series": "Swing \u2014 no filter",
+    "equity": 92851.33
+  },
+  {
+    "date": "2022-10-14",
+    "series": "Swing \u2014 no filter",
+    "equity": 91646.7
+  },
+  {
+    "date": "2022-10-21",
+    "series": "Swing \u2014 no filter",
+    "equity": 92308.32
+  },
+  {
+    "date": "2022-10-31",
+    "series": "Swing \u2014 no filter",
+    "equity": 92737.34
+  },
+  {
+    "date": "2022-11-07",
+    "series": "Swing \u2014 no filter",
+    "equity": 92074.96
+  },
+  {
+    "date": "2022-11-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 91015.9
+  },
+  {
+    "date": "2022-11-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 88973.4
+  },
+  {
+    "date": "2022-11-29",
+    "series": "Swing \u2014 no filter",
+    "equity": 88898.01
+  },
+  {
+    "date": "2022-12-06",
+    "series": "Swing \u2014 no filter",
+    "equity": 87921.86
+  },
+  {
+    "date": "2022-12-13",
+    "series": "Swing \u2014 no filter",
+    "equity": 85971.99
+  },
+  {
+    "date": "2022-12-20",
+    "series": "Swing \u2014 no filter",
+    "equity": 84856.83
+  },
+  {
+    "date": "2022-12-27",
+    "series": "Swing \u2014 no filter",
+    "equity": 83932.24
+  },
+  {
+    "date": "2023-01-03",
+    "series": "Swing \u2014 no filter",
+    "equity": 83939.54
+  },
+  {
+    "date": "2023-01-10",
+    "series": "Swing \u2014 no filter",
+    "equity": 84110.1
+  },
+  {
+    "date": "2023-01-17",
+    "series": "Swing \u2014 no filter",
+    "equity": 84318.89
+  },
+  {
+    "date": "2023-01-24",
+    "series": "Swing \u2014 no filter",
+    "equity": 85249.3
+  },
+  {
+    "date": "2023-02-01",
+    "series": "Swing \u2014 no filter",
+    "equity": 82606.04
+  },
+  {
+    "date": "2023-02-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 82532.27
+  },
+  {
+    "date": "2023-02-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 82709.82
+  },
+  {
+    "date": "2023-02-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 81377.92
+  },
+  {
+    "date": "2023-03-01",
+    "series": "Swing \u2014 no filter",
+    "equity": 80863.71
+  },
+  {
+    "date": "2023-03-09",
+    "series": "Swing \u2014 no filter",
+    "equity": 81538.21
+  },
+  {
+    "date": "2023-03-16",
+    "series": "Swing \u2014 no filter",
+    "equity": 81315.1
+  },
+  {
+    "date": "2023-03-23",
+    "series": "Swing \u2014 no filter",
+    "equity": 79823.68
+  },
+  {
+    "date": "2023-03-31",
+    "series": "Swing \u2014 no filter",
+    "equity": 79943.7
+  },
+  {
+    "date": "2023-04-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 81948.73
+  },
+  {
+    "date": "2023-04-19",
+    "series": "Swing \u2014 no filter",
+    "equity": 81505.45
+  },
+  {
+    "date": "2023-04-26",
+    "series": "Swing \u2014 no filter",
+    "equity": 82635.96
+  },
+  {
+    "date": "2023-05-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 82627.26
+  },
+  {
+    "date": "2023-05-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 83193.75
+  },
+  {
+    "date": "2023-05-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 82252.75
+  },
+  {
+    "date": "2023-05-25",
+    "series": "Swing \u2014 no filter",
+    "equity": 81673.08
+  },
+  {
+    "date": "2023-06-01",
+    "series": "Swing \u2014 no filter",
+    "equity": 82680.8
+  },
+  {
+    "date": "2023-06-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 81867.25
+  },
+  {
+    "date": "2023-06-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 82831.02
+  },
+  {
+    "date": "2023-06-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 82378.5
+  },
+  {
+    "date": "2023-06-30",
+    "series": "Swing \u2014 no filter",
+    "equity": 83074.3
+  },
+  {
+    "date": "2023-07-07",
+    "series": "Swing \u2014 no filter",
+    "equity": 82758.44
+  },
+  {
+    "date": "2023-07-14",
+    "series": "Swing \u2014 no filter",
+    "equity": 82409.09
+  },
+  {
+    "date": "2023-07-21",
+    "series": "Swing \u2014 no filter",
+    "equity": 82691.36
+  },
+  {
+    "date": "2023-07-28",
+    "series": "Swing \u2014 no filter",
+    "equity": 82359.46
+  },
+  {
+    "date": "2023-08-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 81249.8
+  },
+  {
+    "date": "2023-08-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 79622.47
+  },
+  {
+    "date": "2023-08-21",
+    "series": "Swing \u2014 no filter",
+    "equity": 79145.29
+  },
+  {
+    "date": "2023-08-28",
+    "series": "Swing \u2014 no filter",
+    "equity": 78205.97
+  },
+  {
+    "date": "2023-09-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 80059.49
+  },
+  {
+    "date": "2023-09-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 81162.12
+  },
+  {
+    "date": "2023-09-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 80819.35
+  },
+  {
+    "date": "2023-09-26",
+    "series": "Swing \u2014 no filter",
+    "equity": 80367.82
+  },
+  {
+    "date": "2023-10-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 80041.55
+  },
+  {
+    "date": "2023-10-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 80793.05
+  },
+  {
+    "date": "2023-10-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 81127.15
+  },
+  {
+    "date": "2023-10-26",
+    "series": "Swing \u2014 no filter",
+    "equity": 79589.51
+  },
+  {
+    "date": "2023-11-02",
+    "series": "Swing \u2014 no filter",
+    "equity": 79780.75
+  },
+  {
+    "date": "2023-11-09",
+    "series": "Swing \u2014 no filter",
+    "equity": 81076.89
+  },
+  {
+    "date": "2023-11-17",
+    "series": "Swing \u2014 no filter",
+    "equity": 82935.13
+  },
+  {
+    "date": "2023-11-24",
+    "series": "Swing \u2014 no filter",
+    "equity": 83569.97
+  },
+  {
+    "date": "2023-12-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 85118.02
+  },
+  {
+    "date": "2023-12-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 85005.67
+  },
+  {
+    "date": "2023-12-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 86139.76
+  },
+  {
+    "date": "2023-12-26",
+    "series": "Swing \u2014 no filter",
+    "equity": 86759.35
+  },
+  {
+    "date": "2024-01-02",
+    "series": "Swing \u2014 no filter",
+    "equity": 89137.46
+  },
+  {
+    "date": "2024-01-09",
+    "series": "Swing \u2014 no filter",
+    "equity": 88216.87
+  },
+  {
+    "date": "2024-01-16",
+    "series": "Swing \u2014 no filter",
+    "equity": 88096.13
+  },
+  {
+    "date": "2024-01-24",
+    "series": "Swing \u2014 no filter",
+    "equity": 86741.8
+  },
+  {
+    "date": "2024-02-01",
+    "series": "Swing \u2014 no filter",
+    "equity": 86342.92
+  },
+  {
+    "date": "2024-02-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 87377.91
+  },
+  {
+    "date": "2024-02-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 86809.52
+  },
+  {
+    "date": "2024-02-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 87642.54
+  },
+  {
+    "date": "2024-02-29",
+    "series": "Swing \u2014 no filter",
+    "equity": 87012.43
+  },
+  {
+    "date": "2024-03-07",
+    "series": "Swing \u2014 no filter",
+    "equity": 87243.89
+  },
+  {
+    "date": "2024-03-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 85221.68
+  },
+  {
+    "date": "2024-03-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 85429.16
+  },
+  {
+    "date": "2024-04-02",
+    "series": "Swing \u2014 no filter",
+    "equity": 86273.69
+  },
+  {
+    "date": "2024-04-09",
+    "series": "Swing \u2014 no filter",
+    "equity": 86034.32
+  },
+  {
+    "date": "2024-04-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 84028.32
+  },
+  {
+    "date": "2024-04-25",
+    "series": "Swing \u2014 no filter",
+    "equity": 85116.95
+  },
+  {
+    "date": "2024-05-03",
+    "series": "Swing \u2014 no filter",
+    "equity": 84495.75
+  },
+  {
+    "date": "2024-05-10",
+    "series": "Swing \u2014 no filter",
+    "equity": 83870.33
+  },
+  {
+    "date": "2024-05-17",
+    "series": "Swing \u2014 no filter",
+    "equity": 83081.38
+  },
+  {
+    "date": "2024-05-27",
+    "series": "Swing \u2014 no filter",
+    "equity": 82870.49
+  },
+  {
+    "date": "2024-06-03",
+    "series": "Swing \u2014 no filter",
+    "equity": 82190.89
+  },
+  {
+    "date": "2024-06-10",
+    "series": "Swing \u2014 no filter",
+    "equity": 81111.59
+  },
+  {
+    "date": "2024-06-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 80521.63
+  },
+  {
+    "date": "2024-06-25",
+    "series": "Swing \u2014 no filter",
+    "equity": 79074.45
+  },
+  {
+    "date": "2024-07-02",
+    "series": "Swing \u2014 no filter",
+    "equity": 78335.02
+  },
+  {
+    "date": "2024-07-09",
+    "series": "Swing \u2014 no filter",
+    "equity": 79947.11
+  },
+  {
+    "date": "2024-07-16",
+    "series": "Swing \u2014 no filter",
+    "equity": 79341.1
+  },
+  {
+    "date": "2024-07-24",
+    "series": "Swing \u2014 no filter",
+    "equity": 78830.34
+  },
+  {
+    "date": "2024-07-31",
+    "series": "Swing \u2014 no filter",
+    "equity": 80512.81
+  },
+  {
+    "date": "2024-08-07",
+    "series": "Swing \u2014 no filter",
+    "equity": 78782.35
+  },
+  {
+    "date": "2024-08-14",
+    "series": "Swing \u2014 no filter",
+    "equity": 77562.43
+  },
+  {
+    "date": "2024-08-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 77378.86
+  },
+  {
+    "date": "2024-08-29",
+    "series": "Swing \u2014 no filter",
+    "equity": 77681.33
+  },
+  {
+    "date": "2024-09-05",
+    "series": "Swing \u2014 no filter",
+    "equity": 78877.07
+  },
+  {
+    "date": "2024-09-12",
+    "series": "Swing \u2014 no filter",
+    "equity": 80525.48
+  },
+  {
+    "date": "2024-09-19",
+    "series": "Swing \u2014 no filter",
+    "equity": 79144.88
+  },
+  {
+    "date": "2024-09-26",
+    "series": "Swing \u2014 no filter",
+    "equity": 79926.4
+  },
+  {
+    "date": "2024-10-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 79218.08
+  },
+  {
+    "date": "2024-10-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 78526.71
+  },
+  {
+    "date": "2024-10-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 77825.42
+  },
+  {
+    "date": "2024-10-25",
+    "series": "Swing \u2014 no filter",
+    "equity": 76318.32
+  },
+  {
+    "date": "2024-11-01",
+    "series": "Swing \u2014 no filter",
+    "equity": 75579.07
+  },
+  {
+    "date": "2024-11-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 74501.63
+  },
+  {
+    "date": "2024-11-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 73321.22
+  },
+  {
+    "date": "2024-11-26",
+    "series": "Swing \u2014 no filter",
+    "equity": 73572.82
+  },
+  {
+    "date": "2024-12-03",
+    "series": "Swing \u2014 no filter",
+    "equity": 74042.83
+  },
+  {
+    "date": "2024-12-10",
+    "series": "Swing \u2014 no filter",
+    "equity": 74773.33
+  },
+  {
+    "date": "2024-12-17",
+    "series": "Swing \u2014 no filter",
+    "equity": 73754.24
+  },
+  {
+    "date": "2024-12-24",
+    "series": "Swing \u2014 no filter",
+    "equity": 72259.75
+  },
+  {
+    "date": "2025-01-01",
+    "series": "Swing \u2014 no filter",
+    "equity": 71205.76
+  },
+  {
+    "date": "2025-01-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 69862.15
+  },
+  {
+    "date": "2025-01-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 67904.49
+  },
+  {
+    "date": "2025-01-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 66868.36
+  },
+  {
+    "date": "2025-01-29",
+    "series": "Swing \u2014 no filter",
+    "equity": 66713.39
+  },
+  {
+    "date": "2025-02-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 68390.5
+  },
+  {
+    "date": "2025-02-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 67598.74
+  },
+  {
+    "date": "2025-02-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 67582.13
+  },
+  {
+    "date": "2025-02-25",
+    "series": "Swing \u2014 no filter",
+    "equity": 66894.13
+  },
+  {
+    "date": "2025-03-05",
+    "series": "Swing \u2014 no filter",
+    "equity": 66565.63
+  },
+  {
+    "date": "2025-03-12",
+    "series": "Swing \u2014 no filter",
+    "equity": 66935.26
+  },
+  {
+    "date": "2025-03-20",
+    "series": "Swing \u2014 no filter",
+    "equity": 68334.47
+  },
+  {
+    "date": "2025-03-27",
+    "series": "Swing \u2014 no filter",
+    "equity": 69080.17
+  },
+  {
+    "date": "2025-04-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 68512.23
+  },
+  {
+    "date": "2025-04-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 68116.07
+  },
+  {
+    "date": "2025-04-23",
+    "series": "Swing \u2014 no filter",
+    "equity": 68367.71
+  },
+  {
+    "date": "2025-04-30",
+    "series": "Swing \u2014 no filter",
+    "equity": 66453.19
+  },
+  {
+    "date": "2025-05-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 65363.33
+  },
+  {
+    "date": "2025-05-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 66172.59
+  },
+  {
+    "date": "2025-05-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 66377.02
+  },
+  {
+    "date": "2025-05-29",
+    "series": "Swing \u2014 no filter",
+    "equity": 65985.3
+  },
+  {
+    "date": "2025-06-05",
+    "series": "Swing \u2014 no filter",
+    "equity": 64222.92
+  },
+  {
+    "date": "2025-06-12",
+    "series": "Swing \u2014 no filter",
+    "equity": 64626.02
+  },
+  {
+    "date": "2025-06-19",
+    "series": "Swing \u2014 no filter",
+    "equity": 63000.57
+  },
+  {
+    "date": "2025-06-26",
+    "series": "Swing \u2014 no filter",
+    "equity": 63520.85
+  },
+  {
+    "date": "2025-07-03",
+    "series": "Swing \u2014 no filter",
+    "equity": 63080.72
+  },
+  {
+    "date": "2025-07-10",
+    "series": "Swing \u2014 no filter",
+    "equity": 62524.79
+  },
+  {
+    "date": "2025-07-17",
+    "series": "Swing \u2014 no filter",
+    "equity": 63684.67
+  },
+  {
+    "date": "2025-07-24",
+    "series": "Swing \u2014 no filter",
+    "equity": 62822.95
+  },
+  {
+    "date": "2025-07-31",
+    "series": "Swing \u2014 no filter",
+    "equity": 61720.33
+  },
+  {
+    "date": "2025-08-07",
+    "series": "Swing \u2014 no filter",
+    "equity": 60668.63
+  },
+  {
+    "date": "2025-08-14",
+    "series": "Swing \u2014 no filter",
+    "equity": 59592.43
+  },
+  {
+    "date": "2025-08-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 60508.13
+  },
+  {
+    "date": "2025-09-01",
+    "series": "Swing \u2014 no filter",
+    "equity": 59738.45
+  },
+  {
+    "date": "2025-09-08",
+    "series": "Swing \u2014 no filter",
+    "equity": 60212.12
+  },
+  {
+    "date": "2025-09-15",
+    "series": "Swing \u2014 no filter",
+    "equity": 59525.29
+  },
+  {
+    "date": "2025-09-22",
+    "series": "Swing \u2014 no filter",
+    "equity": 59665.28
+  },
+  {
+    "date": "2025-09-29",
+    "series": "Swing \u2014 no filter",
+    "equity": 59238.7
+  },
+  {
+    "date": "2025-10-07",
+    "series": "Swing \u2014 no filter",
+    "equity": 58987.69
+  },
+  {
+    "date": "2025-10-14",
+    "series": "Swing \u2014 no filter",
+    "equity": 59144.57
+  },
+  {
+    "date": "2025-10-21",
+    "series": "Swing \u2014 no filter",
+    "equity": 60099.09
+  },
+  {
+    "date": "2025-10-29",
+    "series": "Swing \u2014 no filter",
+    "equity": 60415.73
+  },
+  {
+    "date": "2025-11-06",
+    "series": "Swing \u2014 no filter",
+    "equity": 58517.07
+  },
+  {
+    "date": "2025-11-13",
+    "series": "Swing \u2014 no filter",
+    "equity": 58804.06
+  },
+  {
+    "date": "2025-11-20",
+    "series": "Swing \u2014 no filter",
+    "equity": 59531.63
+  },
+  {
+    "date": "2025-11-27",
+    "series": "Swing \u2014 no filter",
+    "equity": 59254.17
+  },
+  {
+    "date": "2025-12-04",
+    "series": "Swing \u2014 no filter",
+    "equity": 58283.55
+  },
+  {
+    "date": "2025-12-11",
+    "series": "Swing \u2014 no filter",
+    "equity": 57717.54
+  },
+  {
+    "date": "2025-12-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 57476.17
+  },
+  {
+    "date": "2025-12-26",
+    "series": "Swing \u2014 no filter",
+    "equity": 58307.26
+  },
+  {
+    "date": "2026-01-02",
+    "series": "Swing \u2014 no filter",
+    "equity": 59312.26
+  },
+  {
+    "date": "2026-01-09",
+    "series": "Swing \u2014 no filter",
+    "equity": 58564.64
+  },
+  {
+    "date": "2026-01-16",
+    "series": "Swing \u2014 no filter",
+    "equity": 57371.03
+  },
+  {
+    "date": "2026-01-23",
+    "series": "Swing \u2014 no filter",
+    "equity": 57287.44
+  },
+  {
+    "date": "2026-02-02",
+    "series": "Swing \u2014 no filter",
+    "equity": 56959.98
+  },
+  {
+    "date": "2026-02-09",
+    "series": "Swing \u2014 no filter",
+    "equity": 57371.06
+  },
+  {
+    "date": "2026-02-16",
+    "series": "Swing \u2014 no filter",
+    "equity": 57996.83
+  },
+  {
+    "date": "2026-02-23",
+    "series": "Swing \u2014 no filter",
+    "equity": 58025.49
+  },
+  {
+    "date": "2026-03-02",
+    "series": "Swing \u2014 no filter",
+    "equity": 57223.48
+  },
+  {
+    "date": "2026-03-10",
+    "series": "Swing \u2014 no filter",
+    "equity": 56764.62
+  },
+  {
+    "date": "2026-03-17",
+    "series": "Swing \u2014 no filter",
+    "equity": 56109.73
+  },
+  {
+    "date": "2026-03-24",
+    "series": "Swing \u2014 no filter",
+    "equity": 54064.09
+  },
+  {
+    "date": "2026-04-02",
+    "series": "Swing \u2014 no filter",
+    "equity": 53285.11
+  },
+  {
+    "date": "2026-04-10",
+    "series": "Swing \u2014 no filter",
+    "equity": 52956.8
+  },
+  {
+    "date": "2026-04-20",
+    "series": "Swing \u2014 no filter",
+    "equity": 53764.99
+  },
+  {
+    "date": "2026-04-27",
+    "series": "Swing \u2014 no filter",
+    "equity": 53480.14
+  },
+  {
+    "date": "2026-05-05",
+    "series": "Swing \u2014 no filter",
+    "equity": 53333.94
+  },
+  {
+    "date": "2026-05-12",
+    "series": "Swing \u2014 no filter",
+    "equity": 52039.13
+  },
+  {
+    "date": "2026-05-19",
+    "series": "Swing \u2014 no filter",
+    "equity": 51795.66
+  },
+  {
+    "date": "2026-05-26",
+    "series": "Swing \u2014 no filter",
+    "equity": 52008.91
+  },
+  {
+    "date": "2026-06-03",
+    "series": "Swing \u2014 no filter",
+    "equity": 50356.22
+  },
+  {
+    "date": "2026-06-10",
+    "series": "Swing \u2014 no filter",
+    "equity": 49412.99
+  },
+  {
+    "date": "2026-06-17",
+    "series": "Swing \u2014 no filter",
+    "equity": 49723.79
+  },
+  {
+    "date": "2026-06-24",
+    "series": "Swing \u2014 no filter",
+    "equity": 50001.77
+  },
+  {
+    "date": "2026-07-02",
+    "series": "Swing \u2014 no filter",
+    "equity": 50315.0
+  },
+  {
+    "date": "2026-07-09",
+    "series": "Swing \u2014 no filter",
+    "equity": 49327.19
+  },
+  {
+    "date": "2026-07-16",
+    "series": "Swing \u2014 no filter",
+    "equity": 48800.2
+  },
+  {
+    "date": "2026-07-23",
+    "series": "Swing \u2014 no filter",
+    "equity": 48900.66
+  },
+  {
+    "date": "2026-07-30",
+    "series": "Swing \u2014 no filter",
+    "equity": 48173.44
+  },
+  {
+    "date": "2026-08-06",
+    "series": "Swing \u2014 no filter",
+    "equity": 48492.99
+  },
+  {
+    "date": "2026-08-13",
+    "series": "Swing \u2014 no filter",
+    "equity": 47949.51
+  },
+  {
+    "date": "2026-08-20",
+    "series": "Swing \u2014 no filter",
+    "equity": 47187.3
+  },
+  {
+    "date": "2026-08-27",
+    "series": "Swing \u2014 no filter",
+    "equity": 46847.1
+  },
+  {
+    "date": "2026-09-03",
+    "series": "Swing \u2014 no filter",
+    "equity": 45422.81
+  },
+  {
+    "date": "2026-09-10",
+    "series": "Swing \u2014 no filter",
+    "equity": 44568.21
+  },
+  {
+    "date": "2026-09-18",
+    "series": "Swing \u2014 no filter",
+    "equity": 43523.8
+  },
+  {
+    "date": "2026-09-25",
+    "series": "Swing \u2014 no filter",
+    "equity": 43228.99
+  },
+  {
+    "date": "2026-10-05",
+    "series": "Swing \u2014 no filter",
+    "equity": 41897.85
+  },
+  {
+    "date": "2026-10-12",
+    "series": "Swing \u2014 no filter",
+    "equity": 41889.52
+  },
+  {
+    "date": "2026-10-19",
+    "series": "Swing \u2014 no filter",
+    "equity": 42106.24
+  },
+  {
+    "date": "2026-10-27",
+    "series": "Swing \u2014 no filter",
+    "equity": 42230.48
+  },
+  {
+    "date": "2026-11-03",
+    "series": "Swing \u2014 no filter",
+    "equity": 43741.38
+  },
+  {
+    "date": "2022-01-31",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 100000
+  },
+  {
+    "date": "2022-02-07",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 99302.49
+  },
+  {
+    "date": "2022-02-14",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 97989.05
+  },
+  {
+    "date": "2022-02-21",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98115.52
+  },
+  {
+    "date": "2022-02-28",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98115.52
+  },
+  {
+    "date": "2022-03-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98115.52
+  },
+  {
+    "date": "2022-03-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98115.52
+  },
+  {
+    "date": "2022-03-23",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 97422.73
+  },
+  {
+    "date": "2022-03-30",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98224.83
+  },
+  {
+    "date": "2022-04-06",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98839.09
+  },
+  {
+    "date": "2022-04-13",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 97352.44
+  },
+  {
+    "date": "2022-04-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 97531.97
+  },
+  {
+    "date": "2022-04-29",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 96284.87
+  },
+  {
+    "date": "2022-05-09",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95773.78
+  },
+  {
+    "date": "2022-05-16",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95773.78
+  },
+  {
+    "date": "2022-05-23",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95773.78
+  },
+  {
+    "date": "2022-05-30",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95773.78
+  },
+  {
+    "date": "2022-06-06",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95773.78
+  },
+  {
+    "date": "2022-06-13",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95773.78
+  },
+  {
+    "date": "2022-06-20",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95773.78
+  },
+  {
+    "date": "2022-06-27",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95773.78
+  },
+  {
+    "date": "2022-07-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95773.78
+  },
+  {
+    "date": "2022-07-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95776.81
+  },
+  {
+    "date": "2022-07-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95965.82
+  },
+  {
+    "date": "2022-07-25",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98046.07
+  },
+  {
+    "date": "2022-08-01",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98682.69
+  },
+  {
+    "date": "2022-08-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 99714.72
+  },
+  {
+    "date": "2022-08-17",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 101097.37
+  },
+  {
+    "date": "2022-08-24",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 100630.69
+  },
+  {
+    "date": "2022-09-01",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98884.97
+  },
+  {
+    "date": "2022-09-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 100236.04
+  },
+  {
+    "date": "2022-09-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 100265.41
+  },
+  {
+    "date": "2022-09-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98197.33
+  },
+  {
+    "date": "2022-09-29",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 97567.5
+  },
+  {
+    "date": "2022-10-07",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 97194.84
+  },
+  {
+    "date": "2022-10-14",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 97194.84
+  },
+  {
+    "date": "2022-10-21",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 97145.02
+  },
+  {
+    "date": "2022-10-31",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 98130.08
+  },
+  {
+    "date": "2022-11-07",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 96854.83
+  },
+  {
+    "date": "2022-11-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 95114.34
+  },
+  {
+    "date": "2022-11-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 93285.48
+  },
+  {
+    "date": "2022-11-29",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 93341.56
+  },
+  {
+    "date": "2022-12-06",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 92542.98
+  },
+  {
+    "date": "2022-12-13",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 92213.78
+  },
+  {
+    "date": "2022-12-20",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 91507.68
+  },
+  {
+    "date": "2022-12-27",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-01-03",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-01-10",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-01-17",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-01-24",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-02-01",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-02-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-02-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-02-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-03-01",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-03-09",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-03-16",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-03-23",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-03-31",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90319.5
+  },
+  {
+    "date": "2023-04-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 91442.81
+  },
+  {
+    "date": "2023-04-19",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 91441.01
+  },
+  {
+    "date": "2023-04-26",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 92465.84
+  },
+  {
+    "date": "2023-05-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 93326.98
+  },
+  {
+    "date": "2023-05-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 92148.53
+  },
+  {
+    "date": "2023-05-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90730.03
+  },
+  {
+    "date": "2023-05-25",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90020.3
+  },
+  {
+    "date": "2023-06-01",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 91028.02
+  },
+  {
+    "date": "2023-06-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90214.47
+  },
+  {
+    "date": "2023-06-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 91178.24
+  },
+  {
+    "date": "2023-06-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90725.72
+  },
+  {
+    "date": "2023-06-30",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 91421.52
+  },
+  {
+    "date": "2023-07-07",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 91105.66
+  },
+  {
+    "date": "2023-07-14",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90756.31
+  },
+  {
+    "date": "2023-07-21",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 91038.58
+  },
+  {
+    "date": "2023-07-28",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90706.68
+  },
+  {
+    "date": "2023-08-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 89597.02
+  },
+  {
+    "date": "2023-08-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87969.69
+  },
+  {
+    "date": "2023-08-21",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87492.51
+  },
+  {
+    "date": "2023-08-28",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 86784.78
+  },
+  {
+    "date": "2023-09-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87676.0
+  },
+  {
+    "date": "2023-09-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88162.29
+  },
+  {
+    "date": "2023-09-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88012.37
+  },
+  {
+    "date": "2023-09-26",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87560.84
+  },
+  {
+    "date": "2023-10-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87387.07
+  },
+  {
+    "date": "2023-10-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87766.82
+  },
+  {
+    "date": "2023-10-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88170.96
+  },
+  {
+    "date": "2023-10-26",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87338.95
+  },
+  {
+    "date": "2023-11-02",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87338.95
+  },
+  {
+    "date": "2023-11-09",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87338.95
+  },
+  {
+    "date": "2023-11-17",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 86443.27
+  },
+  {
+    "date": "2023-11-24",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 86810.36
+  },
+  {
+    "date": "2023-12-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88576.71
+  },
+  {
+    "date": "2023-12-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88500.3
+  },
+  {
+    "date": "2023-12-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88783.29
+  },
+  {
+    "date": "2023-12-26",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 89070.41
+  },
+  {
+    "date": "2024-01-02",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90719.63
+  },
+  {
+    "date": "2024-01-09",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90177.97
+  },
+  {
+    "date": "2024-01-16",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90475.32
+  },
+  {
+    "date": "2024-01-24",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88903.93
+  },
+  {
+    "date": "2024-02-01",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87615.98
+  },
+  {
+    "date": "2024-02-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 89257.44
+  },
+  {
+    "date": "2024-02-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 89647.76
+  },
+  {
+    "date": "2024-02-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90480.78
+  },
+  {
+    "date": "2024-02-29",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 89850.67
+  },
+  {
+    "date": "2024-03-07",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 90082.13
+  },
+  {
+    "date": "2024-03-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88059.92
+  },
+  {
+    "date": "2024-03-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88234.18
+  },
+  {
+    "date": "2024-04-02",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88566.23
+  },
+  {
+    "date": "2024-04-09",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 89044.64
+  },
+  {
+    "date": "2024-04-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87028.6
+  },
+  {
+    "date": "2024-04-25",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87930.75
+  },
+  {
+    "date": "2024-05-03",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87940.19
+  },
+  {
+    "date": "2024-05-10",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87461.75
+  },
+  {
+    "date": "2024-05-17",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88458.09
+  },
+  {
+    "date": "2024-05-27",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 88338.46
+  },
+  {
+    "date": "2024-06-03",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 87658.86
+  },
+  {
+    "date": "2024-06-10",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 86496.03
+  },
+  {
+    "date": "2024-06-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 86413.79
+  },
+  {
+    "date": "2024-06-25",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 84845.47
+  },
+  {
+    "date": "2024-07-02",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 84106.04
+  },
+  {
+    "date": "2024-07-09",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 85718.13
+  },
+  {
+    "date": "2024-07-16",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 85112.12
+  },
+  {
+    "date": "2024-07-24",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 84601.36
+  },
+  {
+    "date": "2024-07-31",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 86283.83
+  },
+  {
+    "date": "2024-08-07",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 84553.37
+  },
+  {
+    "date": "2024-08-14",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83333.45
+  },
+  {
+    "date": "2024-08-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83149.88
+  },
+  {
+    "date": "2024-08-29",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83452.35
+  },
+  {
+    "date": "2024-09-05",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 84648.09
+  },
+  {
+    "date": "2024-09-12",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 86296.5
+  },
+  {
+    "date": "2024-09-19",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 84915.9
+  },
+  {
+    "date": "2024-09-26",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 85697.42
+  },
+  {
+    "date": "2024-10-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 84989.1
+  },
+  {
+    "date": "2024-10-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 84871.51
+  },
+  {
+    "date": "2024-10-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83819.55
+  },
+  {
+    "date": "2024-10-25",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83526.9
+  },
+  {
+    "date": "2024-11-01",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83446.28
+  },
+  {
+    "date": "2024-11-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83446.28
+  },
+  {
+    "date": "2024-11-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83446.28
+  },
+  {
+    "date": "2024-11-26",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83446.28
+  },
+  {
+    "date": "2024-12-03",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83446.28
+  },
+  {
+    "date": "2024-12-10",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 83027.46
+  },
+  {
+    "date": "2024-12-17",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 81607.81
+  },
+  {
+    "date": "2024-12-24",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 81150.45
+  },
+  {
+    "date": "2025-01-01",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 81150.45
+  },
+  {
+    "date": "2025-01-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 80038.08
+  },
+  {
+    "date": "2025-01-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-01-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-01-29",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-02-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-02-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-02-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-02-25",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-03-05",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-03-12",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-03-20",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79143.17
+  },
+  {
+    "date": "2025-03-27",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79120.71
+  },
+  {
+    "date": "2025-04-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79096.11
+  },
+  {
+    "date": "2025-04-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 77924.16
+  },
+  {
+    "date": "2025-04-23",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 79149.46
+  },
+  {
+    "date": "2025-04-30",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 78772.04
+  },
+  {
+    "date": "2025-05-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 77813.13
+  },
+  {
+    "date": "2025-05-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 78872.02
+  },
+  {
+    "date": "2025-05-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 78451.23
+  },
+  {
+    "date": "2025-05-29",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 78764.48
+  },
+  {
+    "date": "2025-06-05",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 77030.53
+  },
+  {
+    "date": "2025-06-12",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 77443.62
+  },
+  {
+    "date": "2025-06-19",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 75721.74
+  },
+  {
+    "date": "2025-06-26",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 76363.73
+  },
+  {
+    "date": "2025-07-03",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 75887.19
+  },
+  {
+    "date": "2025-07-10",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 75245.27
+  },
+  {
+    "date": "2025-07-17",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 76296.57
+  },
+  {
+    "date": "2025-07-24",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 75051.3
+  },
+  {
+    "date": "2025-07-31",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 74748.63
+  },
+  {
+    "date": "2025-08-07",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 74748.63
+  },
+  {
+    "date": "2025-08-14",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 74748.63
+  },
+  {
+    "date": "2025-08-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 74779.55
+  },
+  {
+    "date": "2025-09-01",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 74054.78
+  },
+  {
+    "date": "2025-09-08",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 73912.27
+  },
+  {
+    "date": "2025-09-15",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72511.51
+  },
+  {
+    "date": "2025-09-22",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72724.76
+  },
+  {
+    "date": "2025-09-29",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71823.18
+  },
+  {
+    "date": "2025-10-07",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71741.32
+  },
+  {
+    "date": "2025-10-14",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71662.26
+  },
+  {
+    "date": "2025-10-21",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72396.4
+  },
+  {
+    "date": "2025-10-29",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72910.05
+  },
+  {
+    "date": "2025-11-06",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 70919.87
+  },
+  {
+    "date": "2025-11-13",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71351.06
+  },
+  {
+    "date": "2025-11-20",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72318.38
+  },
+  {
+    "date": "2025-11-27",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71991.9
+  },
+  {
+    "date": "2025-12-04",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71015.54
+  },
+  {
+    "date": "2025-12-11",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 70433.15
+  },
+  {
+    "date": "2025-12-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 70372.76
+  },
+  {
+    "date": "2025-12-26",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71196.55
+  },
+  {
+    "date": "2026-01-02",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72156.27
+  },
+  {
+    "date": "2026-01-09",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71143.66
+  },
+  {
+    "date": "2026-01-16",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71571.08
+  },
+  {
+    "date": "2026-01-23",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71689.45
+  },
+  {
+    "date": "2026-02-02",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71689.45
+  },
+  {
+    "date": "2026-02-09",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71689.45
+  },
+  {
+    "date": "2026-02-16",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71801.03
+  },
+  {
+    "date": "2026-02-23",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72185.15
+  },
+  {
+    "date": "2026-03-02",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72332.41
+  },
+  {
+    "date": "2026-03-10",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72332.41
+  },
+  {
+    "date": "2026-03-17",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72332.41
+  },
+  {
+    "date": "2026-03-24",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72332.41
+  },
+  {
+    "date": "2026-04-02",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72332.41
+  },
+  {
+    "date": "2026-04-10",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72332.41
+  },
+  {
+    "date": "2026-04-20",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72332.41
+  },
+  {
+    "date": "2026-04-27",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72110.96
+  },
+  {
+    "date": "2026-05-05",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72345.01
+  },
+  {
+    "date": "2026-05-12",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72082.76
+  },
+  {
+    "date": "2026-05-19",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72926.88
+  },
+  {
+    "date": "2026-05-26",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72921.93
+  },
+  {
+    "date": "2026-06-03",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 73000.34
+  },
+  {
+    "date": "2026-06-10",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 73012.41
+  },
+  {
+    "date": "2026-06-17",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72718.32
+  },
+  {
+    "date": "2026-06-24",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 73231.56
+  },
+  {
+    "date": "2026-07-02",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 73393.86
+  },
+  {
+    "date": "2026-07-09",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 72716.61
+  },
+  {
+    "date": "2026-07-16",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71778.23
+  },
+  {
+    "date": "2026-07-23",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71165.83
+  },
+  {
+    "date": "2026-07-30",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71525.46
+  },
+  {
+    "date": "2026-08-06",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 71006.36
+  },
+  {
+    "date": "2026-08-13",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 70996.17
+  },
+  {
+    "date": "2026-08-20",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 69871.61
+  },
+  {
+    "date": "2026-08-27",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 69548.3
+  },
+  {
+    "date": "2026-09-03",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 68756.0
+  },
+  {
+    "date": "2026-09-10",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 68756.0
+  },
+  {
+    "date": "2026-09-18",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 68756.0
+  },
+  {
+    "date": "2026-09-25",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 68756.0
+  },
+  {
+    "date": "2026-10-05",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 68756.0
+  },
+  {
+    "date": "2026-10-12",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 68756.0
+  },
+  {
+    "date": "2026-10-19",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 68756.0
+  },
+  {
+    "date": "2026-10-27",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 68756.0
+  },
+  {
+    "date": "2026-11-03",
+    "series": "Swing \u2014 trend filter (AI proxy)",
+    "equity": 68735.34
+  }
+]

@@ -1,0 +1,39 @@
+name: research
+
+# Run manually: GitHub → Actions → research → "Run workflow".
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: trading-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Tests must pass first
+        run: python -m pytest -q
+      - name: Run backtest
+        run: python -m backtest.research
+      - name: Update dashboard data
+        run: python -m bot.export_dashboard
+      - name: Save results
+        run: |
+          git config user.name "trading-bot"
+          git config user.email "trading-bot@users.noreply.github.com"
+          git add backtest/results reports/dashboard_data
+          git diff --cached --quiet && exit 0
+          git commit -m "research results $(TZ=Asia/Kolkata date '+%F %H:%M') IST"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; sleep 7; done
+          exit 1

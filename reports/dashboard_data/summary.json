@@ -1,0 +1,18 @@
+[
+  {
+    "equity": 100000,
+    "day_pnl": 0,
+    "week_pnl": 0,
+    "month_pnl": 0,
+    "net_pnl": 0,
+    "trades": 0,
+    "win_rate": null,
+    "profit_factor": null,
+    "max_dd": 0,
+    "open_positions": 0,
+    "status": "Not started yet",
+    "days": 0,
+    "regime": "",
+    "updated": "2026-11-03 16:38"
+  }
+]

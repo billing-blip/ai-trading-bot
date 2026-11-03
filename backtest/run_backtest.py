@@ -43,14 +43,20 @@ def _ts(day: dt.date, hh=15, mm=30) -> dt.datetime:
 
 
 def swing_backtest(daily: dict[str, pd.DataFrame], rules: dict, nifty: pd.Series | None = None,
-                   trend_filter: bool = False, warmup: int = 60) -> dict:
+                   trend_filter: bool = False, warmup: int = 60, strategies=None,
+                   trail_atr: float | None = None, filter_sma: int = 50) -> dict:
+    """strategies: list of setup functions (default: the live menu).
+    trail_atr: if set, stop trails at (close - trail_atr x ATR) each day (trend-following).
+    filter_sma: Nifty moving average used by the trend filter."""
+    strategies = strategies or SWING_STRATEGIES
+    warmup = max(warmup, filter_sma if trend_filter else 0)
     ind = {s: add_all(df, rules) for s, df in daily.items() if len(df) > warmup + 10}
     dates = sorted({d for df in ind.values() for d in df.index})
     pos_in = {s: {d: i for i, d in enumerate(df.index)} for s, df in ind.items()}
     nifty_ok = None
     if nifty is not None:
-        sma50 = nifty.rolling(50).mean()
-        nifty_ok = (nifty > sma50).to_dict()
+        sma = nifty.rolling(filter_sma).mean()
+        nifty_ok = (nifty > sma).to_dict()
 
     pf = P.new_portfolio(rules)
     pf["events"] = []
@@ -83,6 +89,8 @@ def swing_backtest(daily: dict[str, pd.DataFrame], rules: dict, nifty: pd.Series
             if exit_px is None:
                 if bar["High"] >= p["entry_price"] + be_r * p["initial_risk_ps"]:
                     p["stop"] = max(p["stop"], p["entry_price"])
+                if trail_atr and pd.notna(bar["atr"]):
+                    p["stop"] = max(p["stop"], round(float(bar["Close"]) - trail_atr * float(bar["atr"]), 2))
                 p["days_held"] += 1
                 p["last_price"] = float(bar["Close"])
                 if p["days_held"] >= max_days:
@@ -133,7 +141,7 @@ def swing_backtest(daily: dict[str, pd.DataFrame], rules: dict, nifty: pd.Series
             if i is None or i < warmup:
                 continue
             hist = df.iloc[: i + 1]
-            for strat in SWING_STRATEGIES:
+            for strat in strategies:
                 st = strat(s, hist, rules)
                 if st:
                     setups.append(st)

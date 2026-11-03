@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "Original: Swing \u2014 no filter",
+    "round": "Round 1",
+    "verdict": "FAIL",
+    "trades": 698,
+    "is_net": -56276.89,
+    "is_pf": 0.65,
+    "oos_net": null,
+    "oos_pf": null,
+    "oos_return": null,
+    "oos_dd": 58.6
+  },
+  {
+    "variant": "Original: Swing \u2014 trend filter (AI proxy)",
+    "round": "Round 1",
+    "verdict": "FAIL",
+    "trades": 464,
+    "is_net": -31277.92,
+    "is_pf": 0.7,
+    "oos_net": null,
+    "oos_pf": null,
+    "oos_return": null,
+    "oos_dd": 32.25
+  },
+  {
+    "variant": "Original: Intraday ORB \u2014 last ~60 days (trend days only)",
+    "round": "Round 1",
+    "verdict": "NOT ENOUGH TRADES",
+    "trades": 4,
+    "is_net": -554.35,
+    "is_pf": 0.11,
+    "oos_net": null,
+    "oos_pf": null,
+    "oos_return": null,
+    "oos_dd": 0.62
+  }
+]
