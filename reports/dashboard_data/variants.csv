@@ -1,0 +1,4 @@
+variant,round,verdict,trades,is_net,is_pf,oos_net,oos_pf,oos_return,oos_dd
+Original: Swing — no filter,Round 1,FAIL,698,-56276.89,0.65,,,,58.6
+Original: Swing — trend filter (AI proxy),Round 1,FAIL,464,-31277.92,0.7,,,,32.25
+Original: Intraday ORB — last ~60 days (trend days only),Round 1,NOT ENOUGH TRADES,4,-554.35,0.11,,,,0.62

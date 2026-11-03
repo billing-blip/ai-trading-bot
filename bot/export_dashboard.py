@@ -100,7 +100,31 @@ def export() -> dict:
     OUT.mkdir(parents=True, exist_ok=True)
     for k, rows in files.items():
         write_json(OUT / f"{k}.json", rows)
+        _write_csv(OUT / f"{k}.csv", rows, COLUMNS[k])
     return files
+
+
+COLUMNS = {
+    "summary": ["equity", "day_pnl", "week_pnl", "month_pnl", "net_pnl", "trades", "win_rate", "profit_factor",
+                "max_dd", "open_positions", "status", "days", "regime", "updated"],
+    "equity": ["date", "equity"],
+    "trades": ["trade_no", "exit_date", "symbol", "strategy", "type", "qty", "entry", "exit", "net_pnl", "reason"],
+    "positions": ["symbol", "type", "strategy", "qty", "entry", "last", "stop", "target", "unrealized", "days"],
+    "events": ["event_no", "time", "kind", "detail"],
+    "golive": ["check", "ok"],
+    "variants": ["variant", "round", "verdict", "trades", "is_net", "is_pf", "oos_net", "oos_pf", "oos_return", "oos_dd"],
+    "variant_equity": ["date", "series", "equity"],
+}
+
+
+def _write_csv(path, rows, cols):
+    """CSV keeps its header even with no rows, so empty tables still load on the dashboard."""
+    import csv
+    with open(path, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+        w.writeheader()
+        for r in rows:
+            w.writerow({c: ("" if r.get(c) is None else r.get(c)) for c in cols})
 
 
 def _v1(s):

@@ -1,0 +1,473 @@
+date,series,equity
+2022-01-31,Swing — no filter,100000
+2022-02-07,Swing — no filter,99346.29
+2022-02-14,Swing — no filter,97463.69
+2022-02-21,Swing — no filter,96500.4
+2022-02-28,Swing — no filter,95581.94
+2022-03-08,Swing — no filter,94884.75
+2022-03-15,Swing — no filter,95479.44
+2022-03-23,Swing — no filter,95357.09
+2022-03-30,Swing — no filter,96142.69
+2022-04-06,Swing — no filter,97704.37
+2022-04-13,Swing — no filter,96297.02
+2022-04-22,Swing — no filter,96476.55
+2022-04-29,Swing — no filter,95225.23
+2022-05-09,Swing — no filter,94707.59
+2022-05-16,Swing — no filter,93095.52
+2022-05-23,Swing — no filter,93236.4
+2022-05-30,Swing — no filter,94375.62
+2022-06-06,Swing — no filter,94685.04
+2022-06-13,Swing — no filter,93369.83
+2022-06-20,Swing — no filter,92519.28
+2022-06-27,Swing — no filter,92966.62
+2022-07-04,Swing — no filter,93071.97
+2022-07-11,Swing — no filter,93848.02
+2022-07-18,Swing — no filter,94164.84
+2022-07-25,Swing — no filter,95586.9
+2022-08-01,Swing — no filter,96623.21
+2022-08-08,Swing — no filter,96937.54
+2022-08-17,Swing — no filter,98400.08
+2022-08-24,Swing — no filter,96446.08
+2022-09-01,Swing — no filter,94452.44
+2022-09-08,Swing — no filter,95873.33
+2022-09-15,Swing — no filter,95902.7
+2022-09-22,Swing — no filter,93834.62
+2022-09-29,Swing — no filter,93104.57
+2022-10-07,Swing — no filter,92851.33
+2022-10-14,Swing — no filter,91646.7
+2022-10-21,Swing — no filter,92308.32
+2022-10-31,Swing — no filter,92737.34
+2022-11-07,Swing — no filter,92074.96
+2022-11-15,Swing — no filter,91015.9
+2022-11-22,Swing — no filter,88973.4
+2022-11-29,Swing — no filter,88898.01
+2022-12-06,Swing — no filter,87921.86
+2022-12-13,Swing — no filter,85971.99
+2022-12-20,Swing — no filter,84856.83
+2022-12-27,Swing — no filter,83932.24
+2023-01-03,Swing — no filter,83939.54
+2023-01-10,Swing — no filter,84110.1
+2023-01-17,Swing — no filter,84318.89
+2023-01-24,Swing — no filter,85249.3
+2023-02-01,Swing — no filter,82606.04
+2023-02-08,Swing — no filter,82532.27
+2023-02-15,Swing — no filter,82709.82
+2023-02-22,Swing — no filter,81377.92
+2023-03-01,Swing — no filter,80863.71
+2023-03-09,Swing — no filter,81538.21
+2023-03-16,Swing — no filter,81315.1
+2023-03-23,Swing — no filter,79823.68
+2023-03-31,Swing — no filter,79943.7
+2023-04-11,Swing — no filter,81948.73
+2023-04-19,Swing — no filter,81505.45
+2023-04-26,Swing — no filter,82635.96
+2023-05-04,Swing — no filter,82627.26
+2023-05-11,Swing — no filter,83193.75
+2023-05-18,Swing — no filter,82252.75
+2023-05-25,Swing — no filter,81673.08
+2023-06-01,Swing — no filter,82680.8
+2023-06-08,Swing — no filter,81867.25
+2023-06-15,Swing — no filter,82831.02
+2023-06-22,Swing — no filter,82378.5
+2023-06-30,Swing — no filter,83074.3
+2023-07-07,Swing — no filter,82758.44
+2023-07-14,Swing — no filter,82409.09
+2023-07-21,Swing — no filter,82691.36
+2023-07-28,Swing — no filter,82359.46
+2023-08-04,Swing — no filter,81249.8
+2023-08-11,Swing — no filter,79622.47
+2023-08-21,Swing — no filter,79145.29
+2023-08-28,Swing — no filter,78205.97
+2023-09-04,Swing — no filter,80059.49
+2023-09-11,Swing — no filter,81162.12
+2023-09-18,Swing — no filter,80819.35
+2023-09-26,Swing — no filter,80367.82
+2023-10-04,Swing — no filter,80041.55
+2023-10-11,Swing — no filter,80793.05
+2023-10-18,Swing — no filter,81127.15
+2023-10-26,Swing — no filter,79589.51
+2023-11-02,Swing — no filter,79780.75
+2023-11-09,Swing — no filter,81076.89
+2023-11-17,Swing — no filter,82935.13
+2023-11-24,Swing — no filter,83569.97
+2023-12-04,Swing — no filter,85118.02
+2023-12-11,Swing — no filter,85005.67
+2023-12-18,Swing — no filter,86139.76
+2023-12-26,Swing — no filter,86759.35
+2024-01-02,Swing — no filter,89137.46
+2024-01-09,Swing — no filter,88216.87
+2024-01-16,Swing — no filter,88096.13
+2024-01-24,Swing — no filter,86741.8
+2024-02-01,Swing — no filter,86342.92
+2024-02-08,Swing — no filter,87377.91
+2024-02-15,Swing — no filter,86809.52
+2024-02-22,Swing — no filter,87642.54
+2024-02-29,Swing — no filter,87012.43
+2024-03-07,Swing — no filter,87243.89
+2024-03-15,Swing — no filter,85221.68
+2024-03-22,Swing — no filter,85429.16
+2024-04-02,Swing — no filter,86273.69
+2024-04-09,Swing — no filter,86034.32
+2024-04-18,Swing — no filter,84028.32
+2024-04-25,Swing — no filter,85116.95
+2024-05-03,Swing — no filter,84495.75
+2024-05-10,Swing — no filter,83870.33
+2024-05-17,Swing — no filter,83081.38
+2024-05-27,Swing — no filter,82870.49
+2024-06-03,Swing — no filter,82190.89
+2024-06-10,Swing — no filter,81111.59
+2024-06-18,Swing — no filter,80521.63
+2024-06-25,Swing — no filter,79074.45
+2024-07-02,Swing — no filter,78335.02
+2024-07-09,Swing — no filter,79947.11
+2024-07-16,Swing — no filter,79341.1
+2024-07-24,Swing — no filter,78830.34
+2024-07-31,Swing — no filter,80512.81
+2024-08-07,Swing — no filter,78782.35
+2024-08-14,Swing — no filter,77562.43
+2024-08-22,Swing — no filter,77378.86
+2024-08-29,Swing — no filter,77681.33
+2024-09-05,Swing — no filter,78877.07
+2024-09-12,Swing — no filter,80525.48
+2024-09-19,Swing — no filter,79144.88
+2024-09-26,Swing — no filter,79926.4
+2024-10-04,Swing — no filter,79218.08
+2024-10-11,Swing — no filter,78526.71
+2024-10-18,Swing — no filter,77825.42
+2024-10-25,Swing — no filter,76318.32
+2024-11-01,Swing — no filter,75579.07
+2024-11-08,Swing — no filter,74501.63
+2024-11-18,Swing — no filter,73321.22
+2024-11-26,Swing — no filter,73572.82
+2024-12-03,Swing — no filter,74042.83
+2024-12-10,Swing — no filter,74773.33
+2024-12-17,Swing — no filter,73754.24
+2024-12-24,Swing — no filter,72259.75
+2025-01-01,Swing — no filter,71205.76
+2025-01-08,Swing — no filter,69862.15
+2025-01-15,Swing — no filter,67904.49
+2025-01-22,Swing — no filter,66868.36
+2025-01-29,Swing — no filter,66713.39
+2025-02-04,Swing — no filter,68390.5
+2025-02-11,Swing — no filter,67598.74
+2025-02-18,Swing — no filter,67582.13
+2025-02-25,Swing — no filter,66894.13
+2025-03-05,Swing — no filter,66565.63
+2025-03-12,Swing — no filter,66935.26
+2025-03-20,Swing — no filter,68334.47
+2025-03-27,Swing — no filter,69080.17
+2025-04-04,Swing — no filter,68512.23
+2025-04-15,Swing — no filter,68116.07
+2025-04-23,Swing — no filter,68367.71
+2025-04-30,Swing — no filter,66453.19
+2025-05-08,Swing — no filter,65363.33
+2025-05-15,Swing — no filter,66172.59
+2025-05-22,Swing — no filter,66377.02
+2025-05-29,Swing — no filter,65985.3
+2025-06-05,Swing — no filter,64222.92
+2025-06-12,Swing — no filter,64626.02
+2025-06-19,Swing — no filter,63000.57
+2025-06-26,Swing — no filter,63520.85
+2025-07-03,Swing — no filter,63080.72
+2025-07-10,Swing — no filter,62524.79
+2025-07-17,Swing — no filter,63684.67
+2025-07-24,Swing — no filter,62822.95
+2025-07-31,Swing — no filter,61720.33
+2025-08-07,Swing — no filter,60668.63
+2025-08-14,Swing — no filter,59592.43
+2025-08-22,Swing — no filter,60508.13
+2025-09-01,Swing — no filter,59738.45
+2025-09-08,Swing — no filter,60212.12
+2025-09-15,Swing — no filter,59525.29
+2025-09-22,Swing — no filter,59665.28
+2025-09-29,Swing — no filter,59238.7
+2025-10-07,Swing — no filter,58987.69
+2025-10-14,Swing — no filter,59144.57
+2025-10-21,Swing — no filter,60099.09
+2025-10-29,Swing — no filter,60415.73
+2025-11-06,Swing — no filter,58517.07
+2025-11-13,Swing — no filter,58804.06
+2025-11-20,Swing — no filter,59531.63
+2025-11-27,Swing — no filter,59254.17
+2025-12-04,Swing — no filter,58283.55
+2025-12-11,Swing — no filter,57717.54
+2025-12-18,Swing — no filter,57476.17
+2025-12-26,Swing — no filter,58307.26
+2026-01-02,Swing — no filter,59312.26
+2026-01-09,Swing — no filter,58564.64
+2026-01-16,Swing — no filter,57371.03
+2026-01-23,Swing — no filter,57287.44
+2026-02-02,Swing — no filter,56959.98
+2026-02-09,Swing — no filter,57371.06
+2026-02-16,Swing — no filter,57996.83
+2026-02-23,Swing — no filter,58025.49
+2026-03-02,Swing — no filter,57223.48
+2026-03-10,Swing — no filter,56764.62
+2026-03-17,Swing — no filter,56109.73
+2026-03-24,Swing — no filter,54064.09
+2026-04-02,Swing — no filter,53285.11
+2026-04-10,Swing — no filter,52956.8
+2026-04-20,Swing — no filter,53764.99
+2026-04-27,Swing — no filter,53480.14
+2026-05-05,Swing — no filter,53333.94
+2026-05-12,Swing — no filter,52039.13
+2026-05-19,Swing — no filter,51795.66
+2026-05-26,Swing — no filter,52008.91
+2026-06-03,Swing — no filter,50356.22
+2026-06-10,Swing — no filter,49412.99
+2026-06-17,Swing — no filter,49723.79
+2026-06-24,Swing — no filter,50001.77
+2026-07-02,Swing — no filter,50315.0
+2026-07-09,Swing — no filter,49327.19
+2026-07-16,Swing — no filter,48800.2
+2026-07-23,Swing — no filter,48900.66
+2026-07-30,Swing — no filter,48173.44
+2026-08-06,Swing — no filter,48492.99
+2026-08-13,Swing — no filter,47949.51
+2026-08-20,Swing — no filter,47187.3
+2026-08-27,Swing — no filter,46847.1
+2026-09-03,Swing — no filter,45422.81
+2026-09-10,Swing — no filter,44568.21
+2026-09-18,Swing — no filter,43523.8
+2026-09-25,Swing — no filter,43228.99
+2026-10-05,Swing — no filter,41897.85
+2026-10-12,Swing — no filter,41889.52
+2026-10-19,Swing — no filter,42106.24
+2026-10-27,Swing — no filter,42230.48
+2026-11-03,Swing — no filter,43741.38
+2022-01-31,Swing — trend filter (AI proxy),100000
+2022-02-07,Swing — trend filter (AI proxy),99302.49
+2022-02-14,Swing — trend filter (AI proxy),97989.05
+2022-02-21,Swing — trend filter (AI proxy),98115.52
+2022-02-28,Swing — trend filter (AI proxy),98115.52
+2022-03-08,Swing — trend filter (AI proxy),98115.52
+2022-03-15,Swing — trend filter (AI proxy),98115.52
+2022-03-23,Swing — trend filter (AI proxy),97422.73
+2022-03-30,Swing — trend filter (AI proxy),98224.83
+2022-04-06,Swing — trend filter (AI proxy),98839.09
+2022-04-13,Swing — trend filter (AI proxy),97352.44
+2022-04-22,Swing — trend filter (AI proxy),97531.97
+2022-04-29,Swing — trend filter (AI proxy),96284.87
+2022-05-09,Swing — trend filter (AI proxy),95773.78
+2022-05-16,Swing — trend filter (AI proxy),95773.78
+2022-05-23,Swing — trend filter (AI proxy),95773.78
+2022-05-30,Swing — trend filter (AI proxy),95773.78
+2022-06-06,Swing — trend filter (AI proxy),95773.78
+2022-06-13,Swing — trend filter (AI proxy),95773.78
+2022-06-20,Swing — trend filter (AI proxy),95773.78
+2022-06-27,Swing — trend filter (AI proxy),95773.78
+2022-07-04,Swing — trend filter (AI proxy),95773.78
+2022-07-11,Swing — trend filter (AI proxy),95776.81
+2022-07-18,Swing — trend filter (AI proxy),95965.82
+2022-07-25,Swing — trend filter (AI proxy),98046.07
+2022-08-01,Swing — trend filter (AI proxy),98682.69
+2022-08-08,Swing — trend filter (AI proxy),99714.72
+2022-08-17,Swing — trend filter (AI proxy),101097.37
+2022-08-24,Swing — trend filter (AI proxy),100630.69
+2022-09-01,Swing — trend filter (AI proxy),98884.97
+2022-09-08,Swing — trend filter (AI proxy),100236.04
+2022-09-15,Swing — trend filter (AI proxy),100265.41
+2022-09-22,Swing — trend filter (AI proxy),98197.33
+2022-09-29,Swing — trend filter (AI proxy),97567.5
+2022-10-07,Swing — trend filter (AI proxy),97194.84
+2022-10-14,Swing — trend filter (AI proxy),97194.84
+2022-10-21,Swing — trend filter (AI proxy),97145.02
+2022-10-31,Swing — trend filter (AI proxy),98130.08
+2022-11-07,Swing — trend filter (AI proxy),96854.83
+2022-11-15,Swing — trend filter (AI proxy),95114.34
+2022-11-22,Swing — trend filter (AI proxy),93285.48
+2022-11-29,Swing — trend filter (AI proxy),93341.56
+2022-12-06,Swing — trend filter (AI proxy),92542.98
+2022-12-13,Swing — trend filter (AI proxy),92213.78
+2022-12-20,Swing — trend filter (AI proxy),91507.68
+2022-12-27,Swing — trend filter (AI proxy),90319.5
+2023-01-03,Swing — trend filter (AI proxy),90319.5
+2023-01-10,Swing — trend filter (AI proxy),90319.5
+2023-01-17,Swing — trend filter (AI proxy),90319.5
+2023-01-24,Swing — trend filter (AI proxy),90319.5
+2023-02-01,Swing — trend filter (AI proxy),90319.5
+2023-02-08,Swing — trend filter (AI proxy),90319.5
+2023-02-15,Swing — trend filter (AI proxy),90319.5
+2023-02-22,Swing — trend filter (AI proxy),90319.5
+2023-03-01,Swing — trend filter (AI proxy),90319.5
+2023-03-09,Swing — trend filter (AI proxy),90319.5
+2023-03-16,Swing — trend filter (AI proxy),90319.5
+2023-03-23,Swing — trend filter (AI proxy),90319.5
+2023-03-31,Swing — trend filter (AI proxy),90319.5
+2023-04-11,Swing — trend filter (AI proxy),91442.81
+2023-04-19,Swing — trend filter (AI proxy),91441.01
+2023-04-26,Swing — trend filter (AI proxy),92465.84
+2023-05-04,Swing — trend filter (AI proxy),93326.98
+2023-05-11,Swing — trend filter (AI proxy),92148.53
+2023-05-18,Swing — trend filter (AI proxy),90730.03
+2023-05-25,Swing — trend filter (AI proxy),90020.3
+2023-06-01,Swing — trend filter (AI proxy),91028.02
+2023-06-08,Swing — trend filter (AI proxy),90214.47
+2023-06-15,Swing — trend filter (AI proxy),91178.24
+2023-06-22,Swing — trend filter (AI proxy),90725.72
+2023-06-30,Swing — trend filter (AI proxy),91421.52
+2023-07-07,Swing — trend filter (AI proxy),91105.66
+2023-07-14,Swing — trend filter (AI proxy),90756.31
+2023-07-21,Swing — trend filter (AI proxy),91038.58
+2023-07-28,Swing — trend filter (AI proxy),90706.68
+2023-08-04,Swing — trend filter (AI proxy),89597.02
+2023-08-11,Swing — trend filter (AI proxy),87969.69
+2023-08-21,Swing — trend filter (AI proxy),87492.51
+2023-08-28,Swing — trend filter (AI proxy),86784.78
+2023-09-04,Swing — trend filter (AI proxy),87676.0
+2023-09-11,Swing — trend filter (AI proxy),88162.29
+2023-09-18,Swing — trend filter (AI proxy),88012.37
+2023-09-26,Swing — trend filter (AI proxy),87560.84
+2023-10-04,Swing — trend filter (AI proxy),87387.07
+2023-10-11,Swing — trend filter (AI proxy),87766.82
+2023-10-18,Swing — trend filter (AI proxy),88170.96
+2023-10-26,Swing — trend filter (AI proxy),87338.95
+2023-11-02,Swing — trend filter (AI proxy),87338.95
+2023-11-09,Swing — trend filter (AI proxy),87338.95
+2023-11-17,Swing — trend filter (AI proxy),86443.27
+2023-11-24,Swing — trend filter (AI proxy),86810.36
+2023-12-04,Swing — trend filter (AI proxy),88576.71
+2023-12-11,Swing — trend filter (AI proxy),88500.3
+2023-12-18,Swing — trend filter (AI proxy),88783.29
+2023-12-26,Swing — trend filter (AI proxy),89070.41
+2024-01-02,Swing — trend filter (AI proxy),90719.63
+2024-01-09,Swing — trend filter (AI proxy),90177.97
+2024-01-16,Swing — trend filter (AI proxy),90475.32
+2024-01-24,Swing — trend filter (AI proxy),88903.93
+2024-02-01,Swing — trend filter (AI proxy),87615.98
+2024-02-08,Swing — trend filter (AI proxy),89257.44
+2024-02-15,Swing — trend filter (AI proxy),89647.76
+2024-02-22,Swing — trend filter (AI proxy),90480.78
+2024-02-29,Swing — trend filter (AI proxy),89850.67
+2024-03-07,Swing — trend filter (AI proxy),90082.13
+2024-03-15,Swing — trend filter (AI proxy),88059.92
+2024-03-22,Swing — trend filter (AI proxy),88234.18
+2024-04-02,Swing — trend filter (AI proxy),88566.23
+2024-04-09,Swing — trend filter (AI proxy),89044.64
+2024-04-18,Swing — trend filter (AI proxy),87028.6
+2024-04-25,Swing — trend filter (AI proxy),87930.75
+2024-05-03,Swing — trend filter (AI proxy),87940.19
+2024-05-10,Swing — trend filter (AI proxy),87461.75
+2024-05-17,Swing — trend filter (AI proxy),88458.09
+2024-05-27,Swing — trend filter (AI proxy),88338.46
+2024-06-03,Swing — trend filter (AI proxy),87658.86
+2024-06-10,Swing — trend filter (AI proxy),86496.03
+2024-06-18,Swing — trend filter (AI proxy),86413.79
+2024-06-25,Swing — trend filter (AI proxy),84845.47
+2024-07-02,Swing — trend filter (AI proxy),84106.04
+2024-07-09,Swing — trend filter (AI proxy),85718.13
+2024-07-16,Swing — trend filter (AI proxy),85112.12
+2024-07-24,Swing — trend filter (AI proxy),84601.36
+2024-07-31,Swing — trend filter (AI proxy),86283.83
+2024-08-07,Swing — trend filter (AI proxy),84553.37
+2024-08-14,Swing — trend filter (AI proxy),83333.45
+2024-08-22,Swing — trend filter (AI proxy),83149.88
+2024-08-29,Swing — trend filter (AI proxy),83452.35
+2024-09-05,Swing — trend filter (AI proxy),84648.09
+2024-09-12,Swing — trend filter (AI proxy),86296.5
+2024-09-19,Swing — trend filter (AI proxy),84915.9
+2024-09-26,Swing — trend filter (AI proxy),85697.42
+2024-10-04,Swing — trend filter (AI proxy),84989.1
+2024-10-11,Swing — trend filter (AI proxy),84871.51
+2024-10-18,Swing — trend filter (AI proxy),83819.55
+2024-10-25,Swing — trend filter (AI proxy),83526.9
+2024-11-01,Swing — trend filter (AI proxy),83446.28
+2024-11-08,Swing — trend filter (AI proxy),83446.28
+2024-11-18,Swing — trend filter (AI proxy),83446.28
+2024-11-26,Swing — trend filter (AI proxy),83446.28
+2024-12-03,Swing — trend filter (AI proxy),83446.28
+2024-12-10,Swing — trend filter (AI proxy),83027.46
+2024-12-17,Swing — trend filter (AI proxy),81607.81
+2024-12-24,Swing — trend filter (AI proxy),81150.45
+2025-01-01,Swing — trend filter (AI proxy),81150.45
+2025-01-08,Swing — trend filter (AI proxy),80038.08
+2025-01-15,Swing — trend filter (AI proxy),79143.17
+2025-01-22,Swing — trend filter (AI proxy),79143.17
+2025-01-29,Swing — trend filter (AI proxy),79143.17
+2025-02-04,Swing — trend filter (AI proxy),79143.17
+2025-02-11,Swing — trend filter (AI proxy),79143.17
+2025-02-18,Swing — trend filter (AI proxy),79143.17
+2025-02-25,Swing — trend filter (AI proxy),79143.17
+2025-03-05,Swing — trend filter (AI proxy),79143.17
+2025-03-12,Swing — trend filter (AI proxy),79143.17
+2025-03-20,Swing — trend filter (AI proxy),79143.17
+2025-03-27,Swing — trend filter (AI proxy),79120.71
+2025-04-04,Swing — trend filter (AI proxy),79096.11
+2025-04-15,Swing — trend filter (AI proxy),77924.16
+2025-04-23,Swing — trend filter (AI proxy),79149.46
+2025-04-30,Swing — trend filter (AI proxy),78772.04
+2025-05-08,Swing — trend filter (AI proxy),77813.13
+2025-05-15,Swing — trend filter (AI proxy),78872.02
+2025-05-22,Swing — trend filter (AI proxy),78451.23
+2025-05-29,Swing — trend filter (AI proxy),78764.48
+2025-06-05,Swing — trend filter (AI proxy),77030.53
+2025-06-12,Swing — trend filter (AI proxy),77443.62
+2025-06-19,Swing — trend filter (AI proxy),75721.74
+2025-06-26,Swing — trend filter (AI proxy),76363.73
+2025-07-03,Swing — trend filter (AI proxy),75887.19
+2025-07-10,Swing — trend filter (AI proxy),75245.27
+2025-07-17,Swing — trend filter (AI proxy),76296.57
+2025-07-24,Swing — trend filter (AI proxy),75051.3
+2025-07-31,Swing — trend filter (AI proxy),74748.63
+2025-08-07,Swing — trend filter (AI proxy),74748.63
+2025-08-14,Swing — trend filter (AI proxy),74748.63
+2025-08-22,Swing — trend filter (AI proxy),74779.55
+2025-09-01,Swing — trend filter (AI proxy),74054.78
+2025-09-08,Swing — trend filter (AI proxy),73912.27
+2025-09-15,Swing — trend filter (AI proxy),72511.51
+2025-09-22,Swing — trend filter (AI proxy),72724.76
+2025-09-29,Swing — trend filter (AI proxy),71823.18
+2025-10-07,Swing — trend filter (AI proxy),71741.32
+2025-10-14,Swing — trend filter (AI proxy),71662.26
+2025-10-21,Swing — trend filter (AI proxy),72396.4
+2025-10-29,Swing — trend filter (AI proxy),72910.05
+2025-11-06,Swing — trend filter (AI proxy),70919.87
+2025-11-13,Swing — trend filter (AI proxy),71351.06
+2025-11-20,Swing — trend filter (AI proxy),72318.38
+2025-11-27,Swing — trend filter (AI proxy),71991.9
+2025-12-04,Swing — trend filter (AI proxy),71015.54
+2025-12-11,Swing — trend filter (AI proxy),70433.15
+2025-12-18,Swing — trend filter (AI proxy),70372.76
+2025-12-26,Swing — trend filter (AI proxy),71196.55
+2026-01-02,Swing — trend filter (AI proxy),72156.27
+2026-01-09,Swing — trend filter (AI proxy),71143.66
+2026-01-16,Swing — trend filter (AI proxy),71571.08
+2026-01-23,Swing — trend filter (AI proxy),71689.45
+2026-02-02,Swing — trend filter (AI proxy),71689.45
+2026-02-09,Swing — trend filter (AI proxy),71689.45
+2026-02-16,Swing — trend filter (AI proxy),71801.03
+2026-02-23,Swing — trend filter (AI proxy),72185.15
+2026-03-02,Swing — trend filter (AI proxy),72332.41
+2026-03-10,Swing — trend filter (AI proxy),72332.41
+2026-03-17,Swing — trend filter (AI proxy),72332.41
+2026-03-24,Swing — trend filter (AI proxy),72332.41
+2026-04-02,Swing — trend filter (AI proxy),72332.41
+2026-04-10,Swing — trend filter (AI proxy),72332.41
+2026-04-20,Swing — trend filter (AI proxy),72332.41
+2026-04-27,Swing — trend filter (AI proxy),72110.96
+2026-05-05,Swing — trend filter (AI proxy),72345.01
+2026-05-12,Swing — trend filter (AI proxy),72082.76
+2026-05-19,Swing — trend filter (AI proxy),72926.88
+2026-05-26,Swing — trend filter (AI proxy),72921.93
+2026-06-03,Swing — trend filter (AI proxy),73000.34
+2026-06-10,Swing — trend filter (AI proxy),73012.41
+2026-06-17,Swing — trend filter (AI proxy),72718.32
+2026-06-24,Swing — trend filter (AI proxy),73231.56
+2026-07-02,Swing — trend filter (AI proxy),73393.86
+2026-07-09,Swing — trend filter (AI proxy),72716.61
+2026-07-16,Swing — trend filter (AI proxy),71778.23
+2026-07-23,Swing — trend filter (AI proxy),71165.83
+2026-07-30,Swing — trend filter (AI proxy),71525.46
+2026-08-06,Swing — trend filter (AI proxy),71006.36
+2026-08-13,Swing — trend filter (AI proxy),70996.17
+2026-08-20,Swing — trend filter (AI proxy),69871.61
+2026-08-27,Swing — trend filter (AI proxy),69548.3
+2026-09-03,Swing — trend filter (AI proxy),68756.0
+2026-09-10,Swing — trend filter (AI proxy),68756.0
+2026-09-18,Swing — trend filter (AI proxy),68756.0
+2026-09-25,Swing — trend filter (AI proxy),68756.0
+2026-10-05,Swing — trend filter (AI proxy),68756.0
+2026-10-12,Swing — trend filter (AI proxy),68756.0
+2026-10-19,Swing — trend filter (AI proxy),68756.0
+2026-10-27,Swing — trend filter (AI proxy),68756.0
+2026-11-03,Swing — trend filter (AI proxy),68735.34
