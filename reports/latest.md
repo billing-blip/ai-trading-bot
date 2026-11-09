@@ -1,4 +1,4 @@
-# Daily report — Friday 06 Nov 2026
+# Daily report — Monday 09 Nov 2026
 
 **Equity:** ₹100,000  |  **Today:** +0  |  **This week:** +0  |  **This month:** +0
 **Regime today:** risk-off (cash)
