@@ -42,6 +42,12 @@
       "equity": 100000,
       "cash": 100000,
       "open_positions": 0
+    },
+    {
+      "date": "2026-11-11",
+      "equity": 100000,
+      "cash": 100000,
+      "open_positions": 0
     }
   ],
   "created": "2026-11-03T17:05:19.457151+05:30",
