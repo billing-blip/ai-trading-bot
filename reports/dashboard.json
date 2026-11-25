@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-25",
   "equity": 100000,
   "pnl": {
     "equity": 100000,
@@ -102,6 +102,12 @@
       "equity": 100000,
       "cash": 100000,
       "open_positions": 0
+    },
+    {
+      "date": "2026-11-25",
+      "equity": 100000,
+      "cash": 100000,
+      "open_positions": 0
     }
   ],
   "open_positions": [],
@@ -124,6 +130,6 @@
       "zero rule breaks": true
     },
     "ready": false,
-    "days": 14
+    "days": 15
   }
 }
